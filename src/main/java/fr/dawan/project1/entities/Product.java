@@ -31,9 +31,19 @@ public class Product extends BaseEntity {
     //private String notMappedfield;
 
 
-    //@ManyToMany
-    //@JoinTable
-    //private Set<Supplier> suppliers;
+    @ManyToMany(mappedBy = "products", cascade = CascadeType.ALL)
+    //@JoinTable(name = "supp_prod", joinColumns=@JoinColumn(name="supp_id",
+    //  inverseJoinColumn=@JoinColumn(name="prod_id"))
+    private Set<Supplier> suppliers;
+
+
+    public Set<Supplier> getSuppliers() {
+        return suppliers;
+    }
+
+    public void setSuppliers(Set<Supplier> suppliers) {
+        this.suppliers = suppliers;
+    }
 
     public Category getCategory() {
         return category;

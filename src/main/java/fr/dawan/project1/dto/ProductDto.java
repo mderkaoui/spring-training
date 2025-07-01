@@ -9,6 +9,7 @@ import lombok.*;
 import lombok.experimental.SuperBuilder;
 
 import java.io.Serializable;
+import java.util.Set;
 
 public class ProductDto extends BaseDto implements Serializable {
 
@@ -18,6 +19,16 @@ public class ProductDto extends BaseDto implements Serializable {
     private long categoryId;
 
     private ProductCondition prodCondition;
+
+    private Set<Long> suppliersId;
+
+    public Set<Long> getSuppliersId() {
+        return suppliersId;
+    }
+
+    public void setSuppliersId(Set<Long> suppliersId) {
+        this.suppliersId = suppliersId;
+    }
 
     public long getCategoryId() {
         return categoryId;
