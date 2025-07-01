@@ -1,5 +1,6 @@
 package fr.dawan.project1.entities;
 
+import fr.dawan.project1.enumerations.ProductCondition;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -22,6 +23,13 @@ public class Product extends BaseEntity {
     @ManyToOne(cascade=CascadeType.ALL)
     //@JoinColumn(name = "cat_id") si on veut personnaliser la colonne
     private Category category;
+
+    @Enumerated(EnumType.STRING)
+    private ProductCondition prodCondition;
+
+    //@Transient
+    //private String notMappedfield;
+
 
     //@ManyToMany
     //@JoinTable
@@ -49,5 +57,13 @@ public class Product extends BaseEntity {
 
     public void setPrice(double price) {
         this.price = price;
+    }
+
+    public ProductCondition getProdCondition() {
+        return prodCondition;
+    }
+
+    public void setProdCondition(ProductCondition prodCondition) {
+        this.prodCondition = prodCondition;
     }
 }

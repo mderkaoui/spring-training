@@ -1,6 +1,7 @@
 package fr.dawan.project1.dto;
 
 import fr.dawan.project1.entities.BaseEntity;
+import fr.dawan.project1.enumerations.ProductCondition;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
@@ -16,6 +17,7 @@ public class ProductDto extends BaseDto implements Serializable {
 
     private long categoryId;
 
+    private ProductCondition prodCondition;
 
     public long getCategoryId() {
         return categoryId;
@@ -41,5 +43,11 @@ public class ProductDto extends BaseDto implements Serializable {
         this.price = price;
     }
 
+    public ProductCondition getProdCondition() {
+        return prodCondition;
+    }
 
+    public void setProdCondition(ProductCondition prodCondition) {
+        this.prodCondition = prodCondition;
+    }
 }
