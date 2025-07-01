@@ -9,7 +9,7 @@ public class SupplierDto extends BaseDto implements Serializable {
 
     private String name;
 
-    private Set<Long> suppliersId;
+    private Set<Long> productsId;
 
     public String getName() {
         return name;
@@ -19,11 +19,11 @@ public class SupplierDto extends BaseDto implements Serializable {
         this.name = name;
     }
 
-    public Set<Long> getSuppliersId() {
-        return suppliersId;
+    public Set<Long> getProductsId() {
+        return productsId;
     }
 
-    public void setSuppliersId(Set<Long> suppliersId) {
-        this.suppliersId = suppliersId;
+    public void setProductsId(Set<Long> productsId) {
+        this.productsId = productsId;
     }
 }
