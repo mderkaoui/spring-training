@@ -1,0 +1,47 @@
+server:
+  port: 8086
+
+spring:
+  application:
+    name: project1
+  sql:
+    init:
+        mode: always
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost/mydb
+    username: postgres
+    password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+# swagger custom config
+springdoc:
+  api-docs:
+      path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+  group-configs:
+    - group: v1
+      paths-to-match: /api/v1/**
+    - group: v2
+      paths-to-match: /api/v2/**
+
+
+logging:
+  level:
+    org:
+      springframework:
+        beans: info
+        web: info
+        context: info
+        core: info
+
+app:
+  allowedorigin: "*"
+
