@@ -44,4 +44,5 @@ logging:
 
 app:
   allowedorigin: "*"
+  storagefolder: C:/tempBidon
 
