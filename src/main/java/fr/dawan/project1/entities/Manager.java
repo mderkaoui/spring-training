@@ -1,8 +1,9 @@
 package fr.dawan.project1.entities;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.OneToOne;
+import jakarta.persistence.*;
+
+import java.util.List;
+
 
 @Entity
 public class Manager extends BaseEntity {
@@ -13,6 +14,20 @@ public class Manager extends BaseEntity {
     @OneToOne(mappedBy="manager")
     private Player player;
 
+    @ElementCollection
+    @CollectionTable(name="manager_old_players")
+    @Column(name="old_player_name")
+    private List<String> oldPlayers;
+
+
+
+    public List<String> getOldPlayers() {
+        return oldPlayers;
+    }
+
+    public void setOldPlayers(List<String> oldPlayers) {
+        this.oldPlayers = oldPlayers;
+    }
 
     public String getName() {
         return name;
