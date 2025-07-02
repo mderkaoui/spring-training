@@ -27,7 +27,7 @@ public class GenericController<TDto> {
         return service.findAll(page, size);
     }
 
-    @GetMapping(value="/{id}", produces = "application/json")
+    @GetMapping(value="/{id}", produces = MediaType.APPLICATION_JSON_VALUE)
     public TDto findById(@PathVariable("id") long id) throws Exception {
         return service.findById(id);
     }
