@@ -20,32 +20,6 @@ public interface SupplierRepository extends JpaRepository<Supplier, Long> {
     Optional<Supplier> findById(@Param("id") long id);
 
 }
-/*
-{
-    "id":1,
-        "name":"fournisseur 1",
-        "products":[
-        {
-            "id":12,
-            "name":"table",
-            "price":300
-        },
-        {
-        "id":15,
-        "name":"table",
-        "price":50
-        }
-       ]
-
-}
-
-TO DTO :
-        {
-        "id":1,
-        "name":"fournisseur 1",
-        "productsId":[12,15]
-        }
-*/
 
 
 
