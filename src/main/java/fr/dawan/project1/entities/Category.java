@@ -13,6 +13,11 @@ public class Category extends BaseEntity {
     @Column(nullable = false, unique = true)
     private String name;
 
+    /**
+     * path where the image is stored
+     */
+    private String imagePath;
+
     //si besoin de faire du bi-directionnel
     //@OneToMany(mappedBy = "category", cascade = CascadeType.ALL)
     //private List<Product> products;
@@ -25,6 +30,15 @@ public class Category extends BaseEntity {
 //    public void setProducts(List<Product> products) {
 //        this.products = products;
 //    }
+
+
+    public String getImagePath() {
+        return imagePath;
+    }
+
+    public void setImagePath(String imagePath) {
+        this.imagePath = imagePath;
+    }
 
     public String getName() {
         return name;
