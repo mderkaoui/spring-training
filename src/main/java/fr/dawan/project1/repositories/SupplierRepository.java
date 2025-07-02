@@ -1,5 +1,6 @@
 package fr.dawan.project1.repositories;
 
+import fr.dawan.project1.dto.SupplierProdDto;
 import fr.dawan.project1.entities.Product;
 import fr.dawan.project1.entities.Supplier;
 import org.springframework.data.domain.Pageable;
@@ -19,8 +20,9 @@ public interface SupplierRepository extends JpaRepository<Supplier, Long> {
     @Query("FROM Supplier s JOIN FETCH s.products WHERE s.id= :id")
     Optional<Supplier> findById(@Param("id") long id);
 
+    @Query("SELECT new SupplierProdDto(s.name, p.name) FROM Supplier s JOIN FETCH s.products p")
+    List<SupplierProdDto> findSpecific();
+
 }
-
-
 
 
