@@ -4,6 +4,7 @@ import fr.dawan.project1.dto.CountDto;
 import fr.dawan.project1.dto.ProductDto;
 import fr.dawan.project1.services.GenericService;
 import fr.dawan.project1.services.ProductService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
@@ -14,6 +15,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
+@Slf4j //vous injecte un bean qui vous épargne l'instanciation d'un logger => utilisation : log.info(...);
 @RequestMapping("/api/v1/products")
 public class ProductController extends GenericController<ProductDto> {
 
@@ -30,6 +32,7 @@ public class ProductController extends GenericController<ProductDto> {
     public List<ProductDto> findAllBySearch(@PathVariable("page") int page,
                                           @PathVariable("size") int size,
                                           @PathVariable(value="search", required = false) Optional<String> search) throws Exception {
+
         if(search.isPresent())
             return productService.findAll(page, size, search.get());
         else

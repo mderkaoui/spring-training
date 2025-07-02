@@ -76,4 +76,6 @@ public class Product extends BaseEntity {
     public void setProdCondition(ProductCondition prodCondition) {
         this.prodCondition = prodCondition;
     }
+
+
 }

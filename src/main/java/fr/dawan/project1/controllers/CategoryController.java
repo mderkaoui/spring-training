@@ -18,6 +18,7 @@ import java.util.Optional;
 @RequestMapping("/api/v1/categories")
 public class CategoryController extends GenericController<CategoryDto> {
 
+
     private CategoryService categoryService;
 
     @Autowired
