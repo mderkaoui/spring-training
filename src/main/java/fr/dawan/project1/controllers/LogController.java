@@ -41,7 +41,7 @@ public class LogController {
      * @throws JsonProcessingException  if json to string conversion error
      */
     @PostMapping(consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
-    public ResponseEntity<Void> writeLog(ErrorLogDto logDto) throws JsonProcessingException {
+    public ResponseEntity<Void> writeLog(@RequestBody ErrorLogDto logDto) throws JsonProcessingException {
         //String msg = logDto.getPath() + " " + logDto.getErrorCode() + " : " + logDto.getMessage();
         String msg= objectMapper.writeValueAsString(logDto); //convert dto to string json value
 
