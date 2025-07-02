@@ -4,6 +4,8 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import fr.dawan.project1.dto.ErrorLogDto;
 import lombok.extern.slf4j.Slf4j;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.ByteArrayResource;
@@ -19,13 +21,15 @@ import java.nio.file.Paths;
 /**
  * Manage server logs
  */
-@Slf4j
+
 @RestController
 @RequestMapping("/api/v1/logs")
 public class LogController {
 
     @Autowired
     private ObjectMapper objectMapper;
+
+    private static final Logger log = LoggerFactory.getLogger(LogController.class);
 
     @Value("${app.storagefolder}")
     private String storageFolder;
