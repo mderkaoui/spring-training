@@ -7,6 +7,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.web.client.RestTemplate;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
@@ -43,6 +44,25 @@ public class Project1Application {
 				//registry.addInterceptor(myInterceptor);
 			}
 		};
+	}
+
+	@Bean
+	public RestTemplate restTemplate(){
+		return new RestTemplate();
+
+		//if PROXY usage, ajouter une dépendance:
+		// <dependency>
+		//    <groupId>org.apache.httpcomponents.core5</groupId>
+		//    <artifactId>httpcore5</artifactId>
+		//    <version>5.2.1</version>
+		//</dependency>
+
+
+		//Proxy proxy = new Proxy(Type.HTTP, new InetSocketAddress(PROXY_SERVER_HOST, PROXY_SERVER_PORT));
+		//SimpleClientHttpRequestFactory requestFactory = new SimpleClientHttpRequestFactory();
+		//requestFactory.setProxy(proxy);
+		//Then, we move forward to passing the request factory instance to the RestTemplate constructor:
+		// return new RestTemplate(requestFactory);
 	}
 
 }
