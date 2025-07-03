@@ -1,13 +1,11 @@
 package fr.dawan.project1.entities;
 
-import jakarta.persistence.CascadeType;
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.OneToMany;
+import jakarta.persistence.*;
 
 import java.util.List;
 
 @Entity
+@Table(indexes = @Index(name="idx_catagory_name", columnList = "name"))
 public class Category extends BaseEntity {
 
     @Column(nullable = false, unique = true)

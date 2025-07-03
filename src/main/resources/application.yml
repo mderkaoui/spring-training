@@ -55,6 +55,8 @@ logging:
         web: info
         context: info
         core: info
+      hibernate:
+        SQL: DEBUG
 
 app:
   allowedorigin: "*"
