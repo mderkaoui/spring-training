@@ -23,6 +23,16 @@ spring:
     multipart:
       max-file-size: 5MB
       max-request-size: 25MB
+  mail:
+    host: mail.dawan.fr
+    port: 465
+    username: xxxxxxxxxxx@dawan.fr
+    password: xxxxxxxxxxxxxxxxxxxxx
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls.enable: true
 
 # swagger custom config
 springdoc:

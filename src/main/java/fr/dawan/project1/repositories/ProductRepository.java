@@ -27,4 +27,6 @@ public interface ProductRepository extends JpaRepository<Product, Long> {
     @Query(value = "SELECT * FROM t_products p WHERE p.name LIKE :name", nativeQuery = true)
     List<Product> searchByName2(@Param("name") String name, Pageable pageable);
 
+    @Query(value = "FROM Product p WHERE p.qtyInStock < :min")
+    List<Product> findOutOfStock(@Param("min") int min);
 }

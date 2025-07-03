@@ -22,6 +22,16 @@ public class ProductDto extends BaseDto implements Serializable {
 
     private Set<Long> suppliersId;
 
+    private int qtyInStock;
+
+    public int getQtyInStock() {
+        return qtyInStock;
+    }
+
+    public void setQtyInStock(int qtyInStock) {
+        this.qtyInStock = qtyInStock;
+    }
+
     public Set<Long> getSuppliersId() {
         return suppliersId;
     }

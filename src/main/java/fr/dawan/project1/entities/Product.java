@@ -36,6 +36,16 @@ public class Product extends BaseEntity {
     //  inverseJoinColumn=@JoinColumn(name="prod_id"))
     private Set<Supplier> suppliers;
 
+    @Column(nullable = true)
+    private int qtyInStock;
+
+    public int getQtyInStock() {
+        return qtyInStock;
+    }
+
+    public void setQtyInStock(int qtyInStock) {
+        this.qtyInStock = qtyInStock;
+    }
 
     public Set<Supplier> getSuppliers() {
         return suppliers;
