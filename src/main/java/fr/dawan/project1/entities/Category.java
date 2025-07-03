@@ -1,5 +1,6 @@
 package fr.dawan.project1.entities;
 
+import fr.dawan.project1.dto.CategoryDto;
 import jakarta.persistence.*;
 
 import java.util.List;
@@ -45,4 +46,6 @@ public class Category extends BaseEntity {
     public void setName(String name) {
         this.name = name;
     }
+
+
 }

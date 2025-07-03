@@ -62,3 +62,9 @@ app:
   allowedorigin: "*"
   storagefolder: C:/tempBidon
 
+management:
+  server:
+    port: 8087
+  endpoints:
+    web.exposure.include: '*'
+    prometheus.enabled: true
