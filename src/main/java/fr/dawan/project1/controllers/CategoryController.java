@@ -5,6 +5,7 @@ import fr.dawan.project1.dto.CategoryDto;
 import fr.dawan.project1.dto.ProductDto;
 import fr.dawan.project1.services.CategoryService;
 import fr.dawan.project1.services.ProductService;
+import io.swagger.v3.oas.annotations.headers.Header;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;
@@ -42,7 +43,8 @@ public class CategoryController extends GenericController<CategoryDto> {
     }
 
     @GetMapping(value={"/{page}/{size}/{search}"}, produces = MediaType.APPLICATION_JSON_VALUE)
-    public List<CategoryDto> findAllBySearch(@PathVariable("page") int page,
+    public List<CategoryDto> findAllBySearch(
+                                            @PathVariable("page") int page,
                                           @PathVariable("size") int size,
                                           @PathVariable(value="search", required = false) Optional<String> search) throws Exception {
         if(search.isPresent())
