@@ -31,6 +31,14 @@ public class Category extends BaseEntity {
 //    }
 
 
+    public Category() {
+    }
+
+    public Category(String name, String imagePath) {
+        this.name = name;
+        this.imagePath = imagePath;
+    }
+
     public String getImagePath() {
         return imagePath;
     }
