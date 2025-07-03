@@ -24,10 +24,10 @@ spring:
       max-file-size: 5MB
       max-request-size: 25MB
   mail:
-    host: mail.dawan.fr
-    port: 465
-    username: xxxxxxxxxxx@dawan.fr
-    password: xxxxxxxxxxxxxxxxxxxxx
+    host: smtp.ethereal.email
+    port: 587
+    username: alfredo.schmeler26@ethereal.email
+    password: f69EFnCBdY9Zt3wEM5
     properties:
       mail:
         smtp:

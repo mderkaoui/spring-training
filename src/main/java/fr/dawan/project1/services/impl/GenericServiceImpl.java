@@ -1,6 +1,7 @@
 package fr.dawan.project1.services.impl;
 
 import fr.dawan.project1.dto.CountDto;
+import fr.dawan.project1.exceptions.IdNotFoundException;
 import fr.dawan.project1.services.GenericService;
 import fr.dawan.project1.mappers.GenericMapper;
 import org.springframework.data.domain.PageRequest;
@@ -45,7 +46,7 @@ public class GenericServiceImpl<T,TDto> implements GenericService<TDto> {
 
     @Override
     public TDto findById(long id) throws Exception {
-        return mapper.toDto(repository.findById(id).orElseThrow(()->new Exception("Id not found")));
+        return mapper.toDto(repository.findById(id).orElseThrow(()->new IdNotFoundException("Id not found")));
     }
 
     @Override

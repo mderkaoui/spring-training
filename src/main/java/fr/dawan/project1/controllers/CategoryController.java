@@ -72,7 +72,7 @@ public class CategoryController extends GenericController<CategoryDto> {
 
 
     @GetMapping(value="/task", produces = MediaType.TEXT_PLAIN_VALUE)
-    public String launchTask(){
+    public String launchTask() throws Exception {
         Runnable runnable = new Runnable() {
             @Override
             public void run() {
@@ -83,9 +83,12 @@ public class CategoryController extends GenericController<CategoryDto> {
                 }
             }
         };
+        //taskScheduler.schedule(runnable);//déclenche la tache une fois
         taskScheduler.scheduleAtFixedRate(runnable, Instant.now(), Duration.of(10, ChronoUnit.SECONDS));
         return "task launched...";
     }
 
 
 }
+
+

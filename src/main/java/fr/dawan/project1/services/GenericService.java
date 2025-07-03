@@ -1,6 +1,7 @@
 package fr.dawan.project1.services;
 
 import fr.dawan.project1.dto.CountDto;
+import fr.dawan.project1.exceptions.IdNotFoundException;
 
 import java.util.List;
 

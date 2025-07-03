@@ -35,7 +35,7 @@ public class EmailServiceImpl implements EmailService {
 
         MimeMessage msg = mailSender.createMimeMessage();
         msg.setSubject("Rappel des produits en rupture");
-        msg.setFrom("contact@dawan.fr");
+        msg.setFrom("alfredo.schmeler26@ethereal.email");
         msg.setRecipients(MimeMessage.RecipientType.TO,"mderkaoui@dawan.fr");
         msg.setText(mailContent.toString());
         mailSender.send(msg);
