@@ -45,7 +45,7 @@ public class CategoryServiceImpl extends GenericServiceImpl<Category, CategoryDt
         this.objectMapper = objectMapper;
     }
 
-    @Cacheable("myCache1")
+    //@Cacheable("myCache1")
     @Override
     public List<CategoryDto> findAll(int page, int size, String search) throws Exception {
         List<Category> lp = null;

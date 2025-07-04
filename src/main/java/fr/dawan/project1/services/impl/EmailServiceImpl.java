@@ -27,11 +27,28 @@ public class EmailServiceImpl implements EmailService {
     @Override
     public void sendStockNotification(int min) throws Exception {
 
-        StringBuilder mailContent = new StringBuilder("Bonjour, \n les produits suivants vont être prochainement en rupture de stock : \n");
         List<Product> products = productRepository.findOutOfStock(min);
+
+        //--------------------------------
+        StringBuilder mailContent = new StringBuilder("Bonjour, \n les produits suivants vont être prochainement en rupture de stock : \n");
         for(Product p : products){
             mailContent.append(p.getName() + " : " + p.getQtyInStock()).append("\n");
         }
+        mailContent.append("\n Messagerie automatique");
+        //---------------------------------------
+
+        //----------------------------------------
+        //charger le template products-out-stock.ftl et je lui passe products en paramètre
+        //ce qui retourne une chaine
+        //il faut injecter : 	@Autowired private Configuration freemarkerConfig;
+        //freemarkerConfig.setClassForTemplateLoading(this.getClass(), "/templates");
+        //Template template = freemarkerConfig.getTemplate("products-out-stock.ftl");
+        //Map<String, Object> model = new HashMap<String, Object>();
+        //model.put("products", products);
+        //String mailContent = FreeMarkerTemplateUtils.processTemplateIntoString(template, model);
+        //-------------------------------------------
+
+
 
         MimeMessage msg = mailSender.createMimeMessage();
         msg.setSubject("Rappel des produits en rupture");

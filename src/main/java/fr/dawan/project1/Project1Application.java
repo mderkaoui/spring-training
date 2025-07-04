@@ -18,7 +18,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @SpringBootApplication
 //@ComponentScan(basePackages = "") si les fichiers sont placés dans un autre répertoire autre que celui par défaut
 @EnableScheduling
-@EnableCaching
+
 public class Project1Application {
 
 	private static Logger myLogger = LoggerFactory.getLogger(Project1Application.class);

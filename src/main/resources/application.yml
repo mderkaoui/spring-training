@@ -19,16 +19,12 @@ spring:
       ddl-auto: update
     show-sql: true
     properties:
-      javax:
-        persistence:
-          sharedCache:
-            mode: ALL
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
-#        cache:
-#          use_second_level_cache: true
-#          use_query_cache: true
-#          region.factory_class: org.hibernate.cache.ehcache.EhCacheRegionFactory
+        envers:
+          store_data_at_delete: true
+          global_with_modified_flag: true
+
   servlet:
     multipart:
       max-file-size: 5MB
@@ -43,8 +39,8 @@ spring:
         smtp:
           auth: true
           starttls.enable: true
-  cache:
-    type: caffeine
+#  cache:
+#    type: caffeine
 #   ehcache:
 #      config: classpath:ehcache3.xml
 

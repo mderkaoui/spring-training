@@ -13,7 +13,7 @@ public interface CategoryRepository extends JpaRepository<Category, Long> {
 
     //req utilisant les règles de nommage de Spring DATA JPA
     //https://docs.spring.io/spring-data/jpa/reference/jpa/query-methods.html
-    @Cacheable("myCache1")
+   // @Cacheable("myCache1")
     List<Category> findAllByNameContainingIgnoreCase(String name, Pageable pageable);
 
 

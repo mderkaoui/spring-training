@@ -1,5 +1,6 @@
 package fr.dawan.project1.controllers;
 
+import fr.dawan.project1.AppConstants;
 import fr.dawan.project1.dto.CategoryDto;
 
 import fr.dawan.project1.services.CategoryService;
@@ -22,8 +23,9 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/api/v1/categories")
+@RequestMapping(AppConstants.API_V_1_CATEGORIES)
 public class CategoryController extends GenericController<CategoryDto> {
+
 
     private CategoryService categoryService;
     private TaskScheduler taskScheduler;

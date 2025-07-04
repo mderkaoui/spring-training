@@ -2,9 +2,11 @@ package fr.dawan.project1.entities;
 
 import fr.dawan.project1.dto.CategoryDto;
 import jakarta.persistence.*;
+import org.hibernate.envers.Audited;
 
 import java.util.List;
 
+@Audited
 @Entity
 @Table(indexes = @Index(name="idx_catagory_name", columnList = "name"))
 public class Category extends BaseEntity {
