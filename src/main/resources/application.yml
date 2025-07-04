@@ -2,6 +2,8 @@ server:
   port: 8086
 
 spring:
+  main:
+    allow-bean-definition-overriding: true
   application:
     name: project1
   sql:
@@ -17,8 +19,16 @@ spring:
       ddl-auto: update
     show-sql: true
     properties:
+      javax:
+        persistence:
+          sharedCache:
+            mode: ALL
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
+#        cache:
+#          use_second_level_cache: true
+#          use_query_cache: true
+#          region.factory_class: org.hibernate.cache.ehcache.EhCacheRegionFactory
   servlet:
     multipart:
       max-file-size: 5MB
@@ -33,6 +43,11 @@ spring:
         smtp:
           auth: true
           starttls.enable: true
+  cache:
+    type: caffeine
+#   ehcache:
+#      config: classpath:ehcache3.xml
+
 
 # swagger custom config
 springdoc:
@@ -68,3 +83,4 @@ management:
   endpoints:
     web.exposure.include: '*'
     prometheus.enabled: true
+

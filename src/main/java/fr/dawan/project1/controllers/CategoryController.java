@@ -1,13 +1,11 @@
 package fr.dawan.project1.controllers;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import fr.dawan.project1.dto.CategoryDto;
-import fr.dawan.project1.dto.ProductDto;
+
 import fr.dawan.project1.services.CategoryService;
-import fr.dawan.project1.services.ProductService;
-import io.swagger.v3.oas.annotations.headers.Header;
+
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
+
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -15,17 +13,13 @@ import org.springframework.scheduling.TaskScheduler;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
-import javax.print.attribute.standard.Media;
-import java.io.BufferedOutputStream;
-import java.io.File;
-import java.io.FileOutputStream;
+
 import java.time.Duration;
 import java.time.Instant;
 import java.time.temporal.ChronoUnit;
-import java.time.temporal.TemporalUnit;
+
 import java.util.List;
 import java.util.Optional;
-import java.util.concurrent.TimeUnit;
 
 @RestController
 @RequestMapping("/api/v1/categories")
@@ -34,12 +28,17 @@ public class CategoryController extends GenericController<CategoryDto> {
     private CategoryService categoryService;
     private TaskScheduler taskScheduler;
 
+ //   private CacheManager cacheManager;
+
+
 
     @Autowired
-    public CategoryController(CategoryService categoryService, TaskScheduler taskScheduler) {
+    public CategoryController(CategoryService categoryService, TaskScheduler taskScheduler){// CacheManager cacheManager) {
         super(categoryService);
         this.categoryService=categoryService;
         this.taskScheduler = taskScheduler;
+   //     this.cacheManager = cacheManager;
+
     }
 
     @GetMapping(value={"/{page}/{size}/{search}"}, produces = MediaType.APPLICATION_JSON_VALUE)
@@ -47,6 +46,11 @@ public class CategoryController extends GenericController<CategoryDto> {
                                             @PathVariable("page") int page,
                                           @PathVariable("size") int size,
                                           @PathVariable(value="search", required = false) Optional<String> search) throws Exception {
+
+     //Cache myCache1 =  cacheManager.getCache("myCache1");
+     //myCache1.put("res1",34);
+     //myCache1.get("res1");
+
         if(search.isPresent())
             return categoryService.findAll(page, size, search.get());
         else

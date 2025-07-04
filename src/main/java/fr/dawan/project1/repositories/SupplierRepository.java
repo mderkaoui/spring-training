@@ -12,9 +12,19 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 import java.util.Optional;
 
+/**
+ * JPA Repository for Supplier
+ */
 @Repository
 public interface SupplierRepository extends JpaRepository<Supplier, Long> {
 
+    /**
+     * Search by name with pagination support
+     * @param name              a supplier name
+     * @param pageable          for pagination
+     * @return                  a list of {@See Supplier}
+     *
+     */
     List<Supplier> findAllByNameContainingIgnoreCase(String name, Pageable pageable);
 
     @Query("FROM Supplier s JOIN FETCH s.products WHERE s.id= :id")

@@ -14,6 +14,7 @@ import fr.dawan.project1.services.ProductService;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
@@ -44,6 +45,7 @@ public class CategoryServiceImpl extends GenericServiceImpl<Category, CategoryDt
         this.objectMapper = objectMapper;
     }
 
+    @Cacheable("myCache1")
     @Override
     public List<CategoryDto> findAll(int page, int size, String search) throws Exception {
         List<Category> lp = null;
