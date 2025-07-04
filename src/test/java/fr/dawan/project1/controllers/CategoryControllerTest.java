@@ -25,6 +25,9 @@ public class CategoryControllerTest {
 
     @Test
     void testFindAll() throws Exception {
+        //restTemplate.getForEntity("/api/v1/categories")
+        //ou mockMvc.perform(get("/api/v1/categories")
+
         mockMvc.perform(get("/api/v1/categories").accept(MediaType.APPLICATION_JSON))
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$.size()",CoreMatchers.is(3)))

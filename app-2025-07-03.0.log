@@ -1,0 +1,1308 @@
+2025-07-03 08:58:15.197 WARN  60097945 --- [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15h7m9s606ms680µs800ns).
+2025-07-03 09:04:11.879 INFO  60454627 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-03 09:04:11.974 INFO  60454722 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown : Graceful shutdown complete
+2025-07-03 09:04:11.988 INFO  60454736 --- [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-03 09:04:12.031 INFO  60454779 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+2025-07-03 09:04:12.041 INFO  60454789 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
+2025-07-03 09:05:03.416 INFO  2802  --- [restartedMain] f.d.project1.Project1Application : Starting Project1Application using Java 21.0.5 with PID 16508 (C:\Users\mderk\toto\project1\target\classes started by mderk in C:\Users\mderk\toto\project1)
+2025-07-03 09:05:03.426 INFO  2812  --- [restartedMain] f.d.project1.Project1Application : No active profile set, falling back to 1 default profile: "default"
+2025-07-03 09:05:03.663 INFO  3049  --- [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-03 09:05:03.665 INFO  3051  --- [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-03 09:05:06.949 INFO  6335  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-03 09:05:07.188 INFO  6574  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 201 ms. Found 3 JPA repository interfaces.
+2025-07-03 09:05:10.230 INFO  9616  --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port 8086 (http)
+2025-07-03 09:05:10.275 INFO  9661  --- [restartedMain] o.a.catalina.core.StandardService : Starting service [Tomcat]
+2025-07-03 09:05:10.277 INFO  9663  --- [restartedMain] o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-03 09:05:10.441 INFO  9827  --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2025-07-03 09:05:10.442 INFO  9828  --- [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6773 ms
+2025-07-03 09:05:10.980 INFO  10366 --- [restartedMain] o.h.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-03 09:05:11.257 INFO  10643 --- [restartedMain] org.hibernate.Version : HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-07-03 09:05:11.409 INFO  10795 --- [restartedMain] o.h.c.i.RegionFactoryInitiator : HHH000026: Second-level cache disabled
+2025-07-03 09:05:12.729 INFO  12115 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-03 09:05:13.252 INFO  12638 --- [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2025-07-03 09:05:13.764 INFO  13150 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3e537ce4
+2025-07-03 09:05:13.767 INFO  13153 --- [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2025-07-03 09:05:13.866 WARN  13252 --- [restartedMain] org.hibernate.orm.deprecation : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-03 09:05:13.981 INFO  13367 --- [restartedMain] o.hibernate.orm.connections.pooling : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-03 09:05:18.002 INFO  17388 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-03 09:05:19.615 INFO  19001 --- [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-03 09:05:21.947 INFO  21333 --- [restartedMain] o.s.d.j.r.q.QueryEnhancerFactory : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-07-03 09:05:27.281 WARN  26667 --- [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-03 09:05:29.628 INFO  29014 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2025-07-03 09:05:29.757 INFO  29143 --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port 8086 (http) with context path '/'
+2025-07-03 09:05:29.776 INFO  29162 --- [restartedMain] f.d.project1.Project1Application : Started Project1Application in 27.935 seconds (process running for 29.642)
+2025-07-03 09:05:29.795 INFO  29181 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:05:32.809 INFO  32195 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:05:35.827 INFO  35213 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:05:38.832 INFO  38218 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:05:41.839 INFO  41225 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:05:44.856 INFO  44242 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:05:47.866 INFO  47252 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:05:50.881 INFO  50267 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:05:53.891 INFO  53277 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:05:56.902 INFO  56288 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:05:59.914 INFO  59300 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:06:02.910 INFO  62296 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-03 09:06:02.930 INFO  62316 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown : Graceful shutdown complete
+2025-07-03 09:06:02.937 INFO  62323 --- [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-03 09:06:02.944 INFO  62330 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+2025-07-03 09:06:02.953 INFO  62339 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
+2025-07-03 09:06:26.993 INFO  3222  --- [restartedMain] f.d.project1.Project1Application : Starting Project1Application using Java 21.0.5 with PID 25544 (C:\Users\mderk\toto\project1\target\classes started by mderk in C:\Users\mderk\toto\project1)
+2025-07-03 09:06:27.019 INFO  3248  --- [restartedMain] f.d.project1.Project1Application : No active profile set, falling back to 1 default profile: "default"
+2025-07-03 09:06:27.285 INFO  3514  --- [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-03 09:06:27.287 INFO  3516  --- [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-03 09:06:33.524 INFO  9753  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-03 09:06:34.265 INFO  10494 --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 535 ms. Found 3 JPA repository interfaces.
+2025-07-03 09:06:38.423 INFO  14652 --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port 8086 (http)
+2025-07-03 09:06:38.471 INFO  14700 --- [restartedMain] o.a.catalina.core.StandardService : Starting service [Tomcat]
+2025-07-03 09:06:38.473 INFO  14702 --- [restartedMain] o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-03 09:06:38.649 INFO  14878 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2025-07-03 09:06:38.649 INFO  14878 --- [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 11358 ms
+2025-07-03 09:06:39.908 INFO  16137 --- [restartedMain] o.h.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-03 09:06:40.480 INFO  16709 --- [restartedMain] org.hibernate.Version : HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-07-03 09:06:40.804 INFO  17033 --- [restartedMain] o.h.c.i.RegionFactoryInitiator : HHH000026: Second-level cache disabled
+2025-07-03 09:06:43.009 INFO  19238 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-03 09:06:43.170 INFO  19399 --- [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2025-07-03 09:06:44.254 INFO  20483 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3e537ce4
+2025-07-03 09:06:44.266 INFO  20495 --- [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2025-07-03 09:06:44.472 WARN  20701 --- [restartedMain] org.hibernate.orm.deprecation : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-03 09:06:44.648 INFO  20877 --- [restartedMain] o.hibernate.orm.connections.pooling : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-03 09:06:49.921 INFO  26150 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-03 09:06:51.208 INFO  27437 --- [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-03 09:06:53.995 INFO  30224 --- [restartedMain] o.s.d.j.r.q.QueryEnhancerFactory : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-07-03 09:06:59.313 WARN  35542 --- [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-03 09:07:00.995 INFO  37224 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2025-07-03 09:07:01.082 INFO  37311 --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port 8086 (http) with context path '/'
+2025-07-03 09:07:01.113 INFO  37342 --- [restartedMain] f.d.project1.Project1Application : Started Project1Application in 36.184 seconds (process running for 37.785)
+2025-07-03 09:07:01.199 INFO  37428 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:07:01.212 INFO  37441 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:07:04.221 INFO  40450 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:07:06.223 INFO  42452 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:07:07.230 INFO  43459 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:07:10.244 INFO  46473 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:07:11.231 INFO  47460 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:07:13.248 INFO  49477 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:07:16.240 INFO  52469 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:07:16.255 INFO  52484 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:07:19.263 INFO  55492 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:07:21.257 INFO  57486 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:07:22.274 INFO  58503 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:07:25.278 INFO  61507 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:07:26.262 INFO  62491 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:07:28.287 INFO  64516 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:07:31.265 INFO  67494 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:07:31.297 INFO  67526 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:07:34.307 INFO  70536 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:07:36.280 INFO  72509 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:07:37.310 INFO  73539 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:07:40.325 INFO  76554 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:07:41.286 INFO  77515 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:07:43.329 INFO  79558 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:07:46.304 INFO  82533 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:07:46.334 INFO  82563 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:07:49.349 INFO  85578 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:07:51.315 INFO  87544 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:07:52.360 INFO  88589 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:07:55.371 INFO  91600 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:07:56.331 INFO  92560 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:07:58.377 INFO  94606 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:08:01.345 INFO  97574 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:08:01.392 INFO  97621 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:08:04.404 INFO  100633 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:08:06.352 INFO  102581 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:08:07.417 INFO  103646 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:08:10.430 INFO  106659 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:08:11.357 INFO  107586 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:08:13.441 INFO  109670 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:08:16.368 INFO  112597 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:08:16.446 INFO  112675 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:08:19.463 INFO  115692 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:08:21.372 INFO  117601 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:08:22.486 INFO  118715 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:08:25.489 INFO  121718 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:08:26.386 INFO  122615 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:08:28.493 INFO  124722 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:08:31.402 INFO  127631 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:08:31.497 INFO  127726 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:08:34.515 INFO  130744 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:08:36.412 INFO  132641 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:08:37.523 INFO  133752 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:08:40.538 INFO  136767 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:08:41.419 INFO  137648 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:08:43.543 INFO  139772 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:08:46.431 INFO  142660 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:08:46.556 INFO  142785 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:08:49.567 INFO  145796 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:08:51.434 INFO  147663 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:08:52.579 INFO  148808 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:08:55.595 INFO  151824 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:08:56.444 INFO  152673 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:08:58.603 INFO  154832 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:09:01.458 INFO  157687 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:09:01.613 INFO  157842 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:09:04.621 INFO  160850 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:09:06.465 INFO  162694 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:09:07.626 INFO  163855 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:09:10.632 INFO  166861 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:09:11.481 INFO  167710 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:09:13.635 INFO  169864 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:09:16.490 INFO  172719 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:09:16.646 INFO  172875 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:09:19.648 INFO  175877 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:09:21.495 INFO  177724 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:09:22.649 INFO  178878 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:09:25.659 INFO  181888 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:09:26.502 INFO  182731 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:09:28.662 INFO  184891 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:09:31.519 INFO  187748 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:09:31.676 INFO  187905 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:09:34.689 INFO  190918 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:09:36.521 INFO  192750 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:09:37.690 INFO  193919 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:09:40.707 INFO  196936 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:09:41.533 INFO  197762 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:09:43.717 INFO  199946 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:09:46.544 INFO  202773 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:09:46.730 INFO  202959 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:09:49.733 INFO  205962 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:09:51.560 INFO  207789 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:09:52.735 INFO  208964 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:09:55.744 INFO  211973 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:09:56.564 INFO  212793 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:09:58.753 INFO  214982 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:10:01.567 INFO  217796 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:10:01.756 INFO  217985 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:10:04.759 INFO  220988 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:10:06.580 INFO  222809 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:10:07.766 INFO  223995 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:10:10.781 INFO  227010 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:10:11.595 INFO  227824 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:10:13.788 INFO  230017 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:10:16.598 INFO  232827 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:10:16.802 INFO  233031 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:10:19.806 INFO  236035 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:10:21.610 INFO  237839 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:10:22.812 INFO  239041 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:10:25.815 INFO  242044 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:10:26.613 INFO  242842 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:10:28.819 INFO  245048 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:10:31.618 INFO  247847 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:10:31.823 INFO  248052 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:10:34.828 INFO  251057 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:10:36.627 INFO  252856 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:10:37.835 INFO  254064 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:10:40.850 INFO  257079 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:10:41.643 INFO  257872 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:10:43.862 INFO  260091 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:10:46.658 INFO  262887 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:10:46.877 INFO  263106 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:10:49.881 INFO  266110 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:10:51.662 INFO  267891 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:10:52.882 INFO  269111 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:10:55.891 INFO  272120 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:10:56.673 INFO  272902 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:10:58.893 INFO  275122 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:11:01.681 INFO  277910 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:11:01.902 INFO  278131 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:11:04.911 INFO  281140 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:11:06.689 INFO  282918 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:11:07.923 INFO  284152 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:11:10.928 INFO  287157 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:11:11.692 INFO  287921 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:11:13.941 INFO  290170 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:11:16.706 INFO  292935 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:11:16.956 INFO  293185 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:11:19.973 INFO  296202 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:11:21.708 INFO  297937 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:11:22.973 INFO  299202 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:11:25.977 INFO  302206 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:11:26.713 INFO  302942 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:11:28.979 INFO  305208 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:11:31.726 INFO  307955 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:11:31.991 INFO  308220 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:11:35.008 INFO  311237 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:11:36.741 INFO  312970 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:11:38.021 INFO  314250 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:11:41.035 INFO  317264 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:11:41.752 INFO  317981 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:11:44.051 INFO  320280 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:11:46.760 INFO  322989 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:11:47.056 INFO  323285 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:11:50.073 INFO  326302 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:11:51.768 INFO  327997 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:11:53.078 INFO  329307 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:11:56.090 INFO  332319 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:11:56.777 INFO  333006 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:11:59.105 INFO  335334 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:12:01.792 INFO  338021 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:12:02.120 INFO  338349 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:12:05.131 INFO  341360 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:12:06.804 INFO  343033 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:12:08.143 INFO  344372 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:12:11.158 INFO  347387 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:12:11.814 INFO  348043 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:12:14.172 INFO  350401 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:12:16.822 INFO  353051 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:12:17.181 INFO  353410 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:12:20.195 INFO  356424 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:12:21.837 INFO  358066 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:12:23.200 INFO  359429 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:12:26.215 INFO  362444 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:12:26.841 INFO  363070 --- [scheduling-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:12:26.871 INFO  363100 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-03 09:12:26.917 INFO  363146 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown : Graceful shutdown complete
+2025-07-03 09:12:26.934 INFO  363163 --- [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-03 09:12:26.954 INFO  363183 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+2025-07-03 09:12:26.977 INFO  363206 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
+2025-07-03 09:12:36.816 INFO  2933  --- [restartedMain] f.d.project1.Project1Application : Starting Project1Application using Java 21.0.5 with PID 19040 (C:\Users\mderk\toto\project1\target\classes started by mderk in C:\Users\mderk\toto\project1)
+2025-07-03 09:12:36.844 INFO  2961  --- [restartedMain] f.d.project1.Project1Application : No active profile set, falling back to 1 default profile: "default"
+2025-07-03 09:12:36.993 INFO  3110  --- [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-03 09:12:36.994 INFO  3111  --- [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-03 09:12:43.037 INFO  9154  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-03 09:12:43.857 INFO  9974  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 627 ms. Found 3 JPA repository interfaces.
+2025-07-03 09:12:48.154 INFO  14271 --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port 8086 (http)
+2025-07-03 09:12:48.240 INFO  14357 --- [restartedMain] o.a.catalina.core.StandardService : Starting service [Tomcat]
+2025-07-03 09:12:48.243 INFO  14360 --- [restartedMain] o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-03 09:12:48.562 INFO  14679 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2025-07-03 09:12:48.564 INFO  14681 --- [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 11567 ms
+2025-07-03 09:12:49.763 INFO  15880 --- [restartedMain] o.h.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-03 09:12:50.434 INFO  16551 --- [restartedMain] org.hibernate.Version : HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-07-03 09:12:50.694 INFO  16811 --- [restartedMain] o.h.c.i.RegionFactoryInitiator : HHH000026: Second-level cache disabled
+2025-07-03 09:12:53.030 INFO  19147 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-03 09:12:53.111 INFO  19228 --- [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2025-07-03 09:12:54.058 INFO  20175 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4bc52cd8
+2025-07-03 09:12:54.067 INFO  20184 --- [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2025-07-03 09:12:54.337 WARN  20454 --- [restartedMain] org.hibernate.orm.deprecation : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-03 09:12:54.399 INFO  20516 --- [restartedMain] o.hibernate.orm.connections.pooling : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-03 09:12:59.004 INFO  25121 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-03 09:13:00.495 INFO  26612 --- [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-03 09:13:03.222 INFO  29339 --- [restartedMain] o.s.d.j.r.q.QueryEnhancerFactory : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-07-03 09:13:07.978 WARN  34095 --- [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-03 09:13:10.196 INFO  36313 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2025-07-03 09:13:10.571 INFO  36688 --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port 8086 (http) with context path '/'
+2025-07-03 09:13:10.659 INFO  36776 --- [restartedMain] f.d.project1.Project1Application : Started Project1Application in 35.409 seconds (process running for 37.162)
+2025-07-03 09:13:10.770 INFO  36887 --- [asyncThread-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:13:10.781 INFO  36898 --- [asyncThread-2] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:13:13.794 INFO  39911 --- [asyncThread-3] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:13:15.793 INFO  41910 --- [asyncThread-4] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:13:16.796 INFO  42913 --- [asyncThread-5] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:13:19.806 INFO  45923 --- [asyncThread-6] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:13:20.796 INFO  46913 --- [asyncThread-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:13:22.821 INFO  48938 --- [asyncThread-2] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:13:25.810 INFO  51927 --- [asyncThread-3] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:13:25.826 INFO  51943 --- [asyncThread-4] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:13:28.837 INFO  54954 --- [asyncThread-5] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:13:30.822 INFO  56939 --- [asyncThread-6] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:13:31.842 INFO  57959 --- [asyncThread-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:13:34.858 INFO  60975 --- [asyncThread-2] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:13:35.826 INFO  61943 --- [asyncThread-3] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:13:37.858 INFO  63975 --- [asyncThread-4] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:13:40.830 INFO  66947 --- [asyncThread-5] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:13:40.864 INFO  66981 --- [asyncThread-6] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:13:43.869 INFO  69986 --- [asyncThread-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:13:45.843 INFO  71960 --- [asyncThread-2] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:13:46.872 INFO  72989 --- [asyncThread-3] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:13:49.877 INFO  75994 --- [asyncThread-4] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:13:50.846 INFO  76963 --- [asyncThread-5] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:13:52.856 INFO  78973 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-03 09:13:52.875 INFO  78992 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown : Graceful shutdown complete
+2025-07-03 09:13:52.882 INFO  78999 --- [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-03 09:13:52.888 INFO  79005 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+2025-07-03 09:13:52.901 INFO  79018 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
+2025-07-03 09:44:57.599 INFO  3519  --- [restartedMain] f.d.project1.Project1Application : Starting Project1Application using Java 21.0.5 with PID 10872 (C:\Users\mderk\toto\project1\target\classes started by mderk in C:\Users\mderk\toto\project1)
+2025-07-03 09:44:57.617 INFO  3537  --- [restartedMain] f.d.project1.Project1Application : No active profile set, falling back to 1 default profile: "default"
+2025-07-03 09:44:57.926 INFO  3846  --- [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-03 09:44:57.927 INFO  3847  --- [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-03 09:45:03.562 INFO  9482  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-03 09:45:03.966 INFO  9886  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 309 ms. Found 3 JPA repository interfaces.
+2025-07-03 09:45:06.795 INFO  12715 --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port 8086 (http)
+2025-07-03 09:45:06.982 INFO  12902 --- [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 9054 ms
+2025-07-03 09:45:07.950 INFO  13870 --- [restartedMain] o.h.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-03 09:45:08.343 INFO  14263 --- [restartedMain] org.hibernate.Version : HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-07-03 09:45:08.464 INFO  14384 --- [restartedMain] o.h.c.i.RegionFactoryInitiator : HHH000026: Second-level cache disabled
+2025-07-03 09:45:10.198 INFO  16118 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-03 09:45:10.387 INFO  16307 --- [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2025-07-03 09:45:11.268 INFO  17188 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4224e009
+2025-07-03 09:45:11.277 INFO  17197 --- [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2025-07-03 09:45:11.479 WARN  17399 --- [restartedMain] org.hibernate.orm.deprecation : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-03 09:45:11.528 INFO  17448 --- [restartedMain] o.hibernate.orm.connections.pooling : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-03 09:45:15.744 INFO  21664 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-03 09:45:15.904 WARN  21824 --- [restartedMain] o.h.t.s.i.ExceptionHandlerLoggedImpl : GenerationTarget encountered exception accepting command : Error executing DDL "alter table if exists t_products add column qty_in_stock integer not null" via JDBC [ERREUR: la colonne « qty_in_stock » de la table « t_products » contient des valeurs NULL]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table if exists t_products add column qty_in_stock integer not null" via JDBC [ERREUR: la colonne « qty_in_stock » de la table « t_products » contient des valeurs NULL]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:576)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:516)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.migrateTable(AbstractSchemaMigrator.java:334)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:84)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:233)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:112)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1517)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1873)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1822)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at fr.dawan.project1.Project1Application.main(Project1Application.java:25)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.postgresql.util.PSQLException: ERREUR: la colonne « qty_in_stock » de la table « t_products » contient des valeurs NULL
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2734)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2421)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:372)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:518)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:435)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:357)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:342)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:318)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:313)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80)
+	... 40 common frames omitted
+2025-07-03 09:45:16.840 INFO  22760 --- [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-03 09:45:18.424 INFO  24344 --- [restartedMain] o.s.d.j.r.q.QueryEnhancerFactory : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-07-03 09:45:22.425 WARN  28345 --- [restartedMain] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'myTasks' defined in file [C:\Users\mderk\toto\project1\target\classes\fr\dawan\project1\tasks\MyTasks.class]: Encountered invalid @Scheduled method 'sendNotifications': Cron expression must consist of 6 fields (found 7 in "0 47 9 1/1 * ? *")
+2025-07-03 09:45:22.429 INFO  28349 --- [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-03 09:45:22.468 INFO  28388 --- [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+2025-07-03 09:45:22.502 INFO  28422 --- [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
+2025-07-03 09:50:19.845 INFO  3593  --- [restartedMain] f.d.project1.Project1Application : Starting Project1Application using Java 21.0.5 with PID 6344 (C:\Users\mderk\toto\project1\target\classes started by mderk in C:\Users\mderk\toto\project1)
+2025-07-03 09:50:19.870 INFO  3618  --- [restartedMain] f.d.project1.Project1Application : No active profile set, falling back to 1 default profile: "default"
+2025-07-03 09:50:20.395 INFO  4143  --- [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-03 09:50:20.397 INFO  4145  --- [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-03 09:50:27.807 INFO  11555 --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-03 09:50:28.535 INFO  12283 --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 532 ms. Found 3 JPA repository interfaces.
+2025-07-03 09:50:33.102 INFO  16850 --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port 8086 (http)
+2025-07-03 09:50:33.265 INFO  17013 --- [restartedMain] o.a.catalina.core.StandardService : Starting service [Tomcat]
+2025-07-03 09:50:33.267 INFO  17015 --- [restartedMain] o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-03 09:50:33.777 INFO  17525 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2025-07-03 09:50:33.779 INFO  17527 --- [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 13375 ms
+2025-07-03 09:50:34.630 INFO  18378 --- [restartedMain] o.h.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-03 09:50:34.822 INFO  18570 --- [restartedMain] org.hibernate.Version : HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-07-03 09:50:34.998 INFO  18746 --- [restartedMain] o.h.c.i.RegionFactoryInitiator : HHH000026: Second-level cache disabled
+2025-07-03 09:50:37.036 INFO  20784 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-03 09:50:37.097 INFO  20845 --- [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2025-07-03 09:50:37.563 INFO  21311 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3c1d2c15
+2025-07-03 09:50:37.566 INFO  21314 --- [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2025-07-03 09:50:37.648 WARN  21396 --- [restartedMain] org.hibernate.orm.deprecation : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-03 09:50:37.738 INFO  21486 --- [restartedMain] o.hibernate.orm.connections.pooling : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-03 09:50:41.784 INFO  25532 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-03 09:50:43.729 INFO  27477 --- [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-03 09:50:45.468 INFO  29216 --- [restartedMain] o.s.d.j.r.q.QueryEnhancerFactory : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-07-03 09:50:47.728 WARN  31476 --- [restartedMain] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'myTasks' defined in file [C:\Users\mderk\toto\project1\target\classes\fr\dawan\project1\tasks\MyTasks.class]: Encountered invalid @Scheduled method 'sendNotifications': Cron expression must consist of 6 fields (found 7 in "0 47 9 1/1 * ? *")
+2025-07-03 09:50:47.730 INFO  31478 --- [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-03 09:50:47.734 INFO  31482 --- [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+2025-07-03 09:50:47.741 INFO  31489 --- [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
+2025-07-03 09:50:47.755 INFO  31503 --- [restartedMain] o.a.catalina.core.StandardService : Stopping service [Tomcat]
+2025-07-03 09:50:47.783 INFO  31531 --- [restartedMain] o.s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-07-03 09:50:47.885 ERROR 31633 --- [restartedMain] o.s.boot.SpringApplication : Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'myTasks' defined in file [C:\Users\mderk\toto\project1\target\classes\fr\dawan\project1\tasks\MyTasks.class]: Encountered invalid @Scheduled method 'sendNotifications': Cron expression must consist of 6 fields (found 7 in "0 47 9 1/1 * ? *")
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:614)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1188)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1123)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at fr.dawan.project1.Project1Application.main(Project1Application.java:25)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalStateException: Encountered invalid @Scheduled method 'sendNotifications': Cron expression must consist of 6 fields (found 7 in "0 47 9 1/1 * ? *")
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.processScheduledTask(ScheduledAnnotationBeanPostProcessor.java:525)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.processScheduledSync(ScheduledAnnotationBeanPostProcessor.java:364)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.processScheduled(ScheduledAnnotationBeanPostProcessor.java:343)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.lambda$postProcessAfterInitialization$1(ScheduledAnnotationBeanPostProcessor.java:308)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.lambda$postProcessAfterInitialization$2(ScheduledAnnotationBeanPostProcessor.java:308)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:986)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.postProcessAfterInitialization(ScheduledAnnotationBeanPostProcessor.java:307)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:445)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1829)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607)
+	... 20 common frames omitted
+2025-07-03 09:54:34.811 INFO  2429  --- [restartedMain] f.d.project1.Project1Application : Starting Project1Application using Java 21.0.5 with PID 19784 (C:\Users\mderk\toto\project1\target\classes started by mderk in C:\Users\mderk\toto\project1)
+2025-07-03 09:54:34.816 INFO  2434  --- [restartedMain] f.d.project1.Project1Application : No active profile set, falling back to 1 default profile: "default"
+2025-07-03 09:54:34.943 INFO  2561  --- [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-03 09:54:34.944 INFO  2562  --- [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-03 09:54:38.494 INFO  6112  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-03 09:54:39.147 INFO  6765  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 561 ms. Found 3 JPA repository interfaces.
+2025-07-03 09:54:41.379 INFO  8997  --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port 8086 (http)
+2025-07-03 09:54:41.468 INFO  9086  --- [restartedMain] o.a.catalina.core.StandardService : Starting service [Tomcat]
+2025-07-03 09:54:41.469 INFO  9087  --- [restartedMain] o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-03 09:54:41.901 INFO  9519  --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2025-07-03 09:54:41.903 INFO  9521  --- [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6958 ms
+2025-07-03 09:54:42.342 INFO  9960  --- [restartedMain] o.h.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-03 09:54:42.552 INFO  10170 --- [restartedMain] org.hibernate.Version : HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-07-03 09:54:42.862 INFO  10480 --- [restartedMain] o.h.c.i.RegionFactoryInitiator : HHH000026: Second-level cache disabled
+2025-07-03 09:54:44.493 INFO  12111 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-03 09:54:44.759 INFO  12377 --- [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2025-07-03 09:54:45.214 INFO  12832 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@27d99b0d
+2025-07-03 09:54:45.218 INFO  12836 --- [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2025-07-03 09:54:45.349 WARN  12967 --- [restartedMain] org.hibernate.orm.deprecation : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-03 09:54:45.409 INFO  13027 --- [restartedMain] o.hibernate.orm.connections.pooling : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-03 09:54:49.036 INFO  16654 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-03 09:54:50.481 INFO  18099 --- [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-03 09:54:52.032 INFO  19650 --- [restartedMain] o.s.d.j.r.q.QueryEnhancerFactory : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-07-03 09:54:55.054 WARN  22672 --- [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-03 09:54:56.524 INFO  24142 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2025-07-03 09:54:56.605 INFO  24223 --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port 8086 (http) with context path '/'
+2025-07-03 09:54:56.657 INFO  24275 --- [restartedMain] f.d.project1.Project1Application : Started Project1Application in 22.891 seconds (process running for 24.757)
+2025-07-03 09:54:56.755 INFO  24373 --- [asyncThread-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:54:56.772 INFO  24390 --- [asyncThread-2] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:54:59.777 INFO  27395 --- [asyncThread-3] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:55:01.782 INFO  29400 --- [asyncThread-4] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:55:02.781 INFO  30399 --- [asyncThread-5] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:55:05.785 INFO  33403 --- [asyncThread-6] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:55:06.797 INFO  34415 --- [asyncThread-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:55:08.797 INFO  36415 --- [asyncThread-2] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:55:11.806 INFO  39424 --- [asyncThread-3] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:55:11.806 INFO  39424 --- [asyncThread-4] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:55:14.810 INFO  42428 --- [asyncThread-5] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:55:16.822 INFO  44440 --- [asyncThread-6] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:55:17.820 INFO  45438 --- [asyncThread-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:55:20.827 INFO  48445 --- [asyncThread-2] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:55:21.828 INFO  49446 --- [asyncThread-3] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:55:23.831 INFO  51449 --- [asyncThread-4] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:55:26.836 INFO  54454 --- [asyncThread-6] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:55:26.836 INFO  54454 --- [asyncThread-5] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:55:29.846 INFO  57464 --- [asyncThread-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:55:31.849 INFO  59467 --- [asyncThread-2] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:55:32.852 INFO  60470 --- [asyncThread-3] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:55:35.864 INFO  63482 --- [asyncThread-4] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:55:36.907 INFO  64525 --- [asyncThread-6] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:55:38.877 INFO  66495 --- [asyncThread-5] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:55:41.878 INFO  69496 --- [asyncThread-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:55:41.925 INFO  69543 --- [asyncThread-2] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:55:44.883 INFO  72501 --- [asyncThread-3] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:55:46.940 INFO  74558 --- [asyncThread-4] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:55:47.888 INFO  75506 --- [asyncThread-6] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:55:50.901 INFO  78519 --- [asyncThread-5] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:55:51.950 INFO  79568 --- [asyncThread-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:55:53.912 INFO  81530 --- [asyncThread-2] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:55:56.926 INFO  84544 --- [asyncThread-3] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:55:56.956 INFO  84574 --- [asyncThread-4] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:55:59.938 INFO  87556 --- [asyncThread-6] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:56:01.966 INFO  89584 --- [asyncThread-5] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:56:02.954 INFO  90572 --- [asyncThread-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:56:05.964 INFO  93582 --- [asyncThread-2] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:56:06.979 INFO  94597 --- [asyncThread-3] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:56:08.980 INFO  96598 --- [asyncThread-4] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:56:11.989 INFO  99607 --- [asyncThread-5] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:56:11.989 INFO  99607 --- [asyncThread-6] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:56:14.993 INFO  102611 --- [asyncThread-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:56:17.000 INFO  104618 --- [asyncThread-2] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:56:17.999 INFO  105617 --- [asyncThread-3] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:56:21.007 INFO  108625 --- [asyncThread-4] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:56:22.007 INFO  109625 --- [asyncThread-5] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:56:24.018 INFO  111636 --- [asyncThread-6] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:56:27.011 INFO  114629 --- [asyncThread-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:56:27.027 INFO  114645 --- [asyncThread-2] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:56:30.031 INFO  117649 --- [asyncThread-3] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:56:32.013 INFO  119631 --- [asyncThread-4] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:56:33.038 INFO  120656 --- [asyncThread-5] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:56:36.040 INFO  123658 --- [asyncThread-6] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:56:37.022 INFO  124640 --- [asyncThread-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:56:39.042 INFO  126660 --- [asyncThread-2] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:56:42.032 INFO  129650 --- [asyncThread-3] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:56:42.046 INFO  129664 --- [asyncThread-4] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:56:45.061 INFO  132679 --- [asyncThread-5] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:56:47.035 INFO  134653 --- [asyncThread-6] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:56:48.072 INFO  135690 --- [asyncThread-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:56:51.083 INFO  138701 --- [asyncThread-2] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:56:52.043 INFO  139661 --- [asyncThread-3] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:56:54.086 INFO  141704 --- [asyncThread-4] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:56:57.057 INFO  144675 --- [asyncThread-5] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:56:57.088 INFO  144706 --- [asyncThread-6] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:57:00.098 INFO  147716 --- [asyncThread-2] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:57:02.062 INFO  149680 --- [asyncThread-3] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:57:03.101 INFO  150719 --- [asyncThread-4] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:57:06.105 INFO  153723 --- [asyncThread-5] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:57:07.073 INFO  154691 --- [asyncThread-6] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:57:09.119 INFO  156737 --- [asyncThread-2] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:57:12.088 INFO  159706 --- [asyncThread-3] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:57:12.135 INFO  159753 --- [asyncThread-4] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:57:15.147 INFO  162765 --- [asyncThread-5] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:57:17.101 INFO  164719 --- [asyncThread-6] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:57:18.148 INFO  165766 --- [asyncThread-2] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:57:21.157 INFO  168775 --- [asyncThread-3] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:57:22.113 INFO  169731 --- [asyncThread-4] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:57:24.166 INFO  171784 --- [asyncThread-5] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:57:27.126 INFO  174744 --- [asyncThread-6] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:57:27.174 INFO  174792 --- [asyncThread-2] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:57:30.180 INFO  177798 --- [asyncThread-3] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:57:32.142 INFO  179760 --- [asyncThread-4] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:57:33.191 INFO  180809 --- [asyncThread-5] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:57:36.203 INFO  183821 --- [asyncThread-6] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:57:37.155 INFO  184773 --- [asyncThread-2] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:57:39.205 INFO  186823 --- [asyncThread-3] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:57:42.166 INFO  189784 --- [asyncThread-4] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:57:42.214 INFO  189832 --- [asyncThread-5] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:57:45.225 INFO  192843 --- [asyncThread-6] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:57:47.174 INFO  194792 --- [asyncThread-2] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:57:48.235 INFO  195853 --- [asyncThread-3] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:57:51.243 INFO  198861 --- [asyncThread-4] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:57:52.177 INFO  199795 --- [asyncThread-5] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:57:54.251 INFO  201869 --- [asyncThread-6] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:57:57.193 INFO  204811 --- [asyncThread-2] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:57:57.256 INFO  204874 --- [asyncThread-3] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:58:00.262 INFO  207880 --- [asyncThread-4] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:58:02.196 INFO  209814 --- [asyncThread-5] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:58:03.271 INFO  210889 --- [asyncThread-6] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:58:06.303 INFO  213921 --- [asyncThread-2] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:58:07.203 INFO  214821 --- [asyncThread-3] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:58:09.310 INFO  216928 --- [asyncThread-4] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:58:12.214 INFO  219832 --- [asyncThread-5] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:58:12.323 INFO  219941 --- [asyncThread-6] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:58:15.324 INFO  222942 --- [asyncThread-2] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:58:17.221 INFO  224839 --- [asyncThread-3] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:58:18.335 INFO  225953 --- [asyncThread-4] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:58:21.344 INFO  228962 --- [asyncThread-5] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:58:22.234 INFO  229852 --- [asyncThread-6] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:58:24.359 INFO  231977 --- [asyncThread-2] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:58:27.235 INFO  234853 --- [asyncThread-3] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:58:27.363 INFO  234981 --- [asyncThread-4] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:58:30.364 INFO  237982 --- [asyncThread-5] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:58:32.250 INFO  239868 --- [asyncThread-6] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:58:33.373 INFO  240991 --- [asyncThread-2] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:58:36.382 INFO  244000 --- [asyncThread-3] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:58:37.252 INFO  244870 --- [asyncThread-4] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:58:39.392 INFO  247010 --- [asyncThread-5] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:58:42.267 INFO  249885 --- [asyncThread-6] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:58:42.392 INFO  250010 --- [asyncThread-2] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:58:45.400 INFO  253018 --- [asyncThread-3] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:58:47.276 INFO  254894 --- [asyncThread-4] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:58:48.403 INFO  256021 --- [asyncThread-5] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:58:51.411 INFO  259029 --- [asyncThread-6] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:58:52.284 INFO  259902 --- [asyncThread-2] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:58:54.420 INFO  262038 --- [asyncThread-3] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:58:57.289 INFO  264907 --- [asyncThread-4] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:58:57.431 INFO  265049 --- [asyncThread-5] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:59:00.442 INFO  268060 --- [asyncThread-6] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:59:02.298 INFO  269916 --- [asyncThread-2] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:59:03.455 INFO  271073 --- [asyncThread-3] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:59:06.461 INFO  274079 --- [asyncThread-4] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:59:07.307 INFO  274925 --- [asyncThread-5] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:59:09.465 INFO  277083 --- [asyncThread-6] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:59:12.316 INFO  279934 --- [asyncThread-2] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:59:12.475 INFO  280093 --- [asyncThread-3] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:59:15.481 INFO  283099 --- [asyncThread-4] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:59:17.322 INFO  284940 --- [asyncThread-5] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:59:18.494 INFO  286112 --- [asyncThread-6] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:59:21.501 INFO  289119 --- [asyncThread-2] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:59:22.329 INFO  289947 --- [asyncThread-3] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:59:24.504 INFO  292122 --- [asyncThread-4] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:59:27.332 INFO  294950 --- [asyncThread-5] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:59:27.518 INFO  295136 --- [asyncThread-6] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:59:30.531 INFO  298149 --- [asyncThread-2] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:59:32.347 INFO  299965 --- [asyncThread-3] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:59:33.541 INFO  301159 --- [asyncThread-4] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:59:36.549 INFO  304167 --- [asyncThread-5] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:59:37.349 INFO  304967 --- [asyncThread-6] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:59:39.556 INFO  307174 --- [asyncThread-2] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:59:42.351 INFO  309969 --- [asyncThread-3] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:59:42.580 INFO  310198 --- [asyncThread-4] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:59:45.585 INFO  313203 --- [asyncThread-5] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:59:47.354 INFO  314972 --- [asyncThread-6] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:59:48.598 INFO  316216 --- [asyncThread-2] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:59:51.613 INFO  319231 --- [asyncThread-3] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:59:52.365 INFO  319983 --- [asyncThread-4] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:59:54.618 INFO  322236 --- [asyncThread-5] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 09:59:57.373 INFO  324991 --- [asyncThread-6] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 09:59:57.625 INFO  325243 --- [asyncThread-2] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:00:00.628 INFO  328246 --- [asyncThread-3] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:00:02.384 INFO  330002 --- [asyncThread-4] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 10:00:03.641 INFO  331259 --- [asyncThread-5] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:00:06.644 INFO  334262 --- [asyncThread-6] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:00:07.390 INFO  335008 --- [asyncThread-2] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 10:00:09.653 INFO  337271 --- [asyncThread-3] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:00:12.405 INFO  340023 --- [asyncThread-4] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 10:00:12.668 INFO  340286 --- [asyncThread-5] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:00:15.678 INFO  343296 --- [asyncThread-6] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:00:17.421 INFO  345039 --- [asyncThread-2] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 10:00:18.687 INFO  346305 --- [asyncThread-3] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:00:21.694 INFO  349312 --- [asyncThread-4] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:00:22.429 INFO  350047 --- [asyncThread-5] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 10:00:24.697 INFO  352315 --- [asyncThread-6] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:00:27.437 INFO  355055 --- [asyncThread-2] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 10:00:27.706 INFO  355324 --- [asyncThread-3] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:00:30.719 INFO  358337 --- [asyncThread-4] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:00:32.449 INFO  360067 --- [asyncThread-5] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 10:00:33.729 INFO  361347 --- [asyncThread-6] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:00:36.741 INFO  364359 --- [asyncThread-2] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:00:37.457 INFO  365075 --- [asyncThread-3] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 10:00:39.753 INFO  367371 --- [asyncThread-4] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:00:42.464 INFO  370082 --- [asyncThread-5] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 10:00:42.761 INFO  370379 --- [asyncThread-6] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:00:45.770 INFO  373388 --- [asyncThread-2] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:00:47.466 INFO  375084 --- [asyncThread-3] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 10:00:48.785 INFO  376403 --- [asyncThread-4] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:00:51.799 INFO  379417 --- [asyncThread-5] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:00:52.472 INFO  380090 --- [asyncThread-6] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 10:00:54.810 INFO  382428 --- [asyncThread-2] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:00:57.488 INFO  385106 --- [asyncThread-3] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 10:00:57.818 INFO  385436 --- [asyncThread-4] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:01:00.831 INFO  388449 --- [asyncThread-5] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:01:02.501 INFO  390119 --- [asyncThread-6] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 10:01:03.845 INFO  391463 --- [asyncThread-2] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:01:06.853 INFO  394471 --- [asyncThread-3] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:01:07.508 INFO  395126 --- [asyncThread-4] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 10:01:09.855 INFO  397473 --- [asyncThread-5] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:01:12.520 INFO  400138 --- [asyncThread-6] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 10:01:12.860 INFO  400478 --- [asyncThread-2] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:01:15.865 INFO  403483 --- [asyncThread-3] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:01:17.524 INFO  405142 --- [asyncThread-4] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 10:01:18.865 INFO  406483 --- [asyncThread-5] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:01:21.873 INFO  409491 --- [asyncThread-6] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:01:22.530 INFO  410148 --- [asyncThread-2] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 10:01:24.883 INFO  412501 --- [asyncThread-3] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:01:27.539 INFO  415157 --- [asyncThread-4] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 10:01:27.886 INFO  415504 --- [asyncThread-5] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:01:30.889 INFO  418507 --- [asyncThread-6] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:01:32.556 INFO  420174 --- [asyncThread-2] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 10:01:33.894 INFO  421512 --- [asyncThread-3] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:01:36.912 INFO  424530 --- [asyncThread-4] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:01:37.567 INFO  425185 --- [asyncThread-5] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 10:01:39.925 INFO  427543 --- [asyncThread-6] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:01:42.577 INFO  430195 --- [asyncThread-2] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 10:01:42.938 INFO  430556 --- [asyncThread-3] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:01:45.940 INFO  433558 --- [asyncThread-4] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:01:47.590 INFO  435208 --- [asyncThread-5] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 10:01:48.948 INFO  436566 --- [asyncThread-6] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:01:51.953 INFO  439571 --- [asyncThread-2] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:01:52.597 INFO  440215 --- [asyncThread-3] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 10:01:54.961 INFO  442579 --- [asyncThread-4] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:01:57.611 INFO  445229 --- [asyncThread-5] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 10:01:57.971 INFO  445589 --- [asyncThread-6] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:02:00.930 ERROR 448548 --- [asyncThread-1] o.s.a.i.SimpleAsyncUncaughtExceptionHandler : Unexpected exception occurred invoking async method: public void fr.dawan.project1.tasks.MyTasks.sendNotifications() throws java.lang.Exception
+org.springframework.mail.MailSendException: Mail server connection failed. Failed messages: jakarta.mail.MessagingException: Got bad greeting from SMTP host: mail.dawan.fr, port: 465, response: [EOF]
+	at org.springframework.mail.javamail.JavaMailSenderImpl.doSend(JavaMailSenderImpl.java:410)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:350)
+	at org.springframework.mail.javamail.JavaMailSender.send(JavaMailSender.java:101)
+	at fr.dawan.project1.services.impl.EmailServiceImpl.sendStockNotification(EmailServiceImpl.java:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
+	at fr.dawan.project1.services.impl.EmailServiceImpl$$SpringCGLIB$$0.sendStockNotification(<generated>)
+	at fr.dawan.project1.tasks.MyTasks.sendNotifications(MyTasks.java:44)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:114)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: jakarta.mail.MessagingException: Got bad greeting from SMTP host: mail.dawan.fr, port: 465, response: [EOF]
+	at org.eclipse.angus.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2231)
+	at org.eclipse.angus.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:729)
+	at jakarta.mail.Service.connect(Service.java:345)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.connectTransport(JavaMailSenderImpl.java:480)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.doSend(JavaMailSenderImpl.java:399)
+	... 24 common frames omitted
+2025-07-03 10:02:00.977 INFO  448595 --- [asyncThread-2] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:02:02.615 INFO  450233 --- [asyncThread-3] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 10:02:03.991 INFO  451609 --- [asyncThread-4] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:02:06.999 INFO  454617 --- [asyncThread-5] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:02:07.624 INFO  455242 --- [asyncThread-6] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 10:02:10.014 INFO  457632 --- [asyncThread-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:02:12.633 INFO  460251 --- [asyncThread-2] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 10:02:13.017 INFO  460635 --- [asyncThread-3] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:02:16.023 INFO  463641 --- [asyncThread-4] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:02:17.648 INFO  465266 --- [asyncThread-5] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 10:02:19.036 INFO  466654 --- [asyncThread-6] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:02:22.052 INFO  469670 --- [asyncThread-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:02:22.661 INFO  470279 --- [asyncThread-2] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 10:02:25.059 INFO  472677 --- [asyncThread-3] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:02:27.667 INFO  475285 --- [asyncThread-4] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 10:02:28.072 INFO  475690 --- [asyncThread-5] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:02:31.078 INFO  478696 --- [asyncThread-6] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:02:32.675 INFO  480293 --- [asyncThread-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 10:02:34.084 INFO  481702 --- [asyncThread-2] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:02:37.085 INFO  484703 --- [asyncThread-3] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:02:37.692 INFO  485310 --- [asyncThread-4] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 10:02:40.088 INFO  487706 --- [asyncThread-5] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:02:42.701 INFO  490319 --- [asyncThread-6] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 10:02:43.094 INFO  490712 --- [asyncThread-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:02:46.105 INFO  493723 --- [asyncThread-2] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:02:47.714 INFO  495332 --- [asyncThread-3] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 10:02:49.111 INFO  496729 --- [asyncThread-4] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:02:52.121 INFO  499739 --- [asyncThread-5] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:02:52.728 INFO  500346 --- [asyncThread-6] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 10:02:55.135 INFO  502753 --- [asyncThread-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:02:57.739 INFO  505357 --- [asyncThread-2] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 10:02:58.146 INFO  505764 --- [asyncThread-3] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:03:01.155 INFO  508773 --- [asyncThread-4] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:03:02.755 INFO  510373 --- [asyncThread-5] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 10:03:04.166 INFO  511784 --- [asyncThread-6] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:03:07.177 INFO  514795 --- [asyncThread-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:03:07.756 INFO  515374 --- [asyncThread-2] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 10:03:10.180 INFO  517798 --- [asyncThread-3] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:03:12.761 INFO  520379 --- [asyncThread-4] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 10:03:13.186 INFO  520804 --- [asyncThread-5] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:03:16.194 INFO  523812 --- [asyncThread-6] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:03:17.772 INFO  525390 --- [asyncThread-1] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 10:03:19.210 INFO  526828 --- [asyncThread-2] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:03:22.212 INFO  529830 --- [asyncThread-3] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:03:22.777 INFO  530395 --- [asyncThread-4] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 10:03:25.219 INFO  532837 --- [asyncThread-5] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:03:27.792 INFO  535410 --- [asyncThread-6] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 10:03:28.228 INFO  535846 --- [asyncThread-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:03:31.239 INFO  538857 --- [asyncThread-2] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:03:32.794 INFO  540412 --- [asyncThread-3] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 10:03:34.252 INFO  541870 --- [asyncThread-4] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:03:37.255 INFO  544873 --- [asyncThread-5] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:03:37.810 INFO  545428 --- [asyncThread-6] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 10:03:40.261 INFO  547879 --- [asyncThread-1] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:03:42.811 INFO  550429 --- [asyncThread-2] fr.dawan.project1.tasks.MyTasks : my task m2
+2025-07-03 10:03:43.264 INFO  550882 --- [asyncThread-3] fr.dawan.project1.tasks.MyTasks : my task m1
+2025-07-03 10:03:44.386 INFO  552004 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-03 10:03:44.425 INFO  552043 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown : Graceful shutdown complete
+2025-07-03 10:03:44.446 INFO  552064 --- [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-03 10:03:44.465 INFO  552083 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+2025-07-03 10:03:44.485 INFO  552103 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
+2025-07-03 10:35:03.924 INFO  1399  --- [restartedMain] f.d.project1.Project1Application : Starting Project1Application using Java 21.0.5 with PID 28336 (C:\Users\mderk\toto\project1\target\classes started by mderk in C:\Users\mderk\toto\project1)
+2025-07-03 10:35:03.927 INFO  1402  --- [restartedMain] f.d.project1.Project1Application : No active profile set, falling back to 1 default profile: "default"
+2025-07-03 10:35:04.005 INFO  1480  --- [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-03 10:35:04.006 INFO  1481  --- [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-03 10:35:05.606 INFO  3081  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-03 10:35:05.773 INFO  3248  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 134 ms. Found 3 JPA repository interfaces.
+2025-07-03 10:35:06.954 INFO  4429  --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port 8086 (http)
+2025-07-03 10:35:06.977 INFO  4452  --- [restartedMain] o.a.catalina.core.StandardService : Starting service [Tomcat]
+2025-07-03 10:35:06.979 INFO  4454  --- [restartedMain] o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-03 10:35:07.078 INFO  4553  --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2025-07-03 10:35:07.078 INFO  4553  --- [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3071 ms
+2025-07-03 10:35:07.338 INFO  4813  --- [restartedMain] o.h.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-03 10:35:07.446 INFO  4921  --- [restartedMain] org.hibernate.Version : HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-07-03 10:35:07.523 INFO  4998  --- [restartedMain] o.h.c.i.RegionFactoryInitiator : HHH000026: Second-level cache disabled
+2025-07-03 10:35:08.074 INFO  5549  --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-03 10:35:08.132 INFO  5607  --- [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2025-07-03 10:35:08.391 INFO  5866  --- [restartedMain] com.zaxxer.hikari.pool.HikariPool : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@552d72e2
+2025-07-03 10:35:08.393 INFO  5868  --- [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2025-07-03 10:35:08.462 WARN  5937  --- [restartedMain] org.hibernate.orm.deprecation : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-03 10:35:08.507 INFO  5982  --- [restartedMain] o.hibernate.orm.connections.pooling : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-03 10:35:09.934 INFO  7409  --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-03 10:35:10.468 INFO  7943  --- [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-03 10:35:11.137 INFO  8612  --- [restartedMain] o.s.d.j.r.q.QueryEnhancerFactory : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-07-03 10:35:12.521 WARN  9996  --- [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-03 10:35:13.254 INFO  10729 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2025-07-03 10:35:13.309 INFO  10784 --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port 8086 (http) with context path '/'
+2025-07-03 10:35:13.326 INFO  10801 --- [restartedMain] f.d.project1.Project1Application : Started Project1Application in 10.077 seconds (process running for 11.722)
+2025-07-03 10:49:35.266 INFO  872741 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-03 10:49:35.275 INFO  872750 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown : Graceful shutdown complete
+2025-07-03 10:49:35.280 INFO  872755 --- [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-03 10:49:35.284 INFO  872759 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+2025-07-03 10:49:35.290 INFO  872765 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
+2025-07-03 10:49:40.255 INFO  1458  --- [restartedMain] f.d.project1.Project1Application : Starting Project1Application using Java 21.0.5 with PID 32616 (C:\Users\mderk\toto\project1\target\classes started by mderk in C:\Users\mderk\toto\project1)
+2025-07-03 10:49:40.258 INFO  1461  --- [restartedMain] f.d.project1.Project1Application : No active profile set, falling back to 1 default profile: "default"
+2025-07-03 10:49:40.337 INFO  1540  --- [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-03 10:49:40.337 INFO  1540  --- [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-03 10:49:41.998 INFO  3201  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-03 10:49:42.142 INFO  3345  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 117 ms. Found 3 JPA repository interfaces.
+2025-07-03 10:49:43.305 INFO  4508  --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port 8086 (http)
+2025-07-03 10:49:43.331 INFO  4534  --- [restartedMain] o.a.catalina.core.StandardService : Starting service [Tomcat]
+2025-07-03 10:49:43.332 INFO  4535  --- [restartedMain] o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-03 10:49:43.419 INFO  4622  --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2025-07-03 10:49:43.419 INFO  4622  --- [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3081 ms
+2025-07-03 10:49:43.696 INFO  4899  --- [restartedMain] o.h.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-03 10:49:43.794 INFO  4997  --- [restartedMain] org.hibernate.Version : HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-07-03 10:49:43.881 INFO  5084  --- [restartedMain] o.h.c.i.RegionFactoryInitiator : HHH000026: Second-level cache disabled
+2025-07-03 10:49:44.470 INFO  5673  --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-03 10:49:44.567 INFO  5770  --- [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2025-07-03 10:49:44.883 INFO  6086  --- [restartedMain] com.zaxxer.hikari.pool.HikariPool : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@ea06787
+2025-07-03 10:49:44.886 INFO  6089  --- [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2025-07-03 10:49:44.968 WARN  6171  --- [restartedMain] org.hibernate.orm.deprecation : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-03 10:49:45.011 INFO  6214  --- [restartedMain] o.hibernate.orm.connections.pooling : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-03 10:49:46.525 INFO  7728  --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-03 10:49:47.055 INFO  8258  --- [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-03 10:49:47.875 INFO  9078  --- [restartedMain] o.s.d.j.r.q.QueryEnhancerFactory : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-07-03 10:49:49.279 WARN  10482 --- [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-03 10:49:49.961 INFO  11164 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2025-07-03 10:49:50.011 INFO  11214 --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port 8086 (http) with context path '/'
+2025-07-03 10:49:50.033 INFO  11236 --- [restartedMain] f.d.project1.Project1Application : Started Project1Application in 10.498 seconds (process running for 11.509)
+2025-07-03 10:50:37.801 INFO  59004 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-03 10:50:37.809 INFO  59012 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown : Graceful shutdown complete
+2025-07-03 10:50:37.814 INFO  59017 --- [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-03 10:50:37.818 INFO  59021 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+2025-07-03 10:50:37.824 INFO  59027 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
+2025-07-03 10:51:11.695 INFO  1486  --- [restartedMain] f.d.project1.Project1Application : Starting Project1Application using Java 21.0.5 with PID 376 (C:\Users\mderk\toto\project1\target\classes started by mderk in C:\Users\mderk\toto\project1)
+2025-07-03 10:51:11.700 INFO  1491  --- [restartedMain] f.d.project1.Project1Application : No active profile set, falling back to 1 default profile: "default"
+2025-07-03 10:51:11.812 INFO  1603  --- [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-03 10:51:11.813 INFO  1604  --- [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-03 10:51:13.537 INFO  3328  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-03 10:51:13.673 INFO  3464  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 116 ms. Found 3 JPA repository interfaces.
+2025-07-03 10:51:14.760 INFO  4551  --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port 8086 (http)
+2025-07-03 10:51:14.789 INFO  4580  --- [restartedMain] o.a.catalina.core.StandardService : Starting service [Tomcat]
+2025-07-03 10:51:14.789 INFO  4580  --- [restartedMain] o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-03 10:51:14.869 INFO  4660  --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2025-07-03 10:51:14.870 INFO  4661  --- [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3055 ms
+2025-07-03 10:51:15.172 INFO  4963  --- [restartedMain] o.h.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-03 10:51:15.277 INFO  5068  --- [restartedMain] org.hibernate.Version : HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-07-03 10:51:15.326 INFO  5117  --- [restartedMain] o.h.c.i.RegionFactoryInitiator : HHH000026: Second-level cache disabled
+2025-07-03 10:51:15.967 INFO  5758  --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-03 10:51:16.008 INFO  5799  --- [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2025-07-03 10:51:16.257 INFO  6048  --- [restartedMain] com.zaxxer.hikari.pool.HikariPool : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1882fad8
+2025-07-03 10:51:16.259 INFO  6050  --- [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2025-07-03 10:51:16.297 WARN  6088  --- [restartedMain] org.hibernate.orm.deprecation : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-03 10:51:16.325 INFO  6116  --- [restartedMain] o.hibernate.orm.connections.pooling : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-03 10:51:17.804 INFO  7595  --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-03 10:51:18.328 INFO  8119  --- [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-03 10:51:19.118 INFO  8909  --- [restartedMain] o.s.d.j.r.q.QueryEnhancerFactory : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-07-03 10:51:20.605 WARN  10396 --- [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-03 10:51:21.294 INFO  11085 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2025-07-03 10:51:21.341 INFO  11132 --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port 8086 (http) with context path '/'
+2025-07-03 10:51:21.366 INFO  11157 --- [restartedMain] f.d.project1.Project1Application : Started Project1Application in 10.395 seconds (process running for 11.436)
+2025-07-03 10:51:25.139 INFO  14930 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-03 10:51:25.148 INFO  14939 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown : Graceful shutdown complete
+2025-07-03 10:51:25.152 INFO  14943 --- [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-03 10:51:25.158 INFO  14949 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+2025-07-03 10:51:25.163 INFO  14954 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
+2025-07-03 11:42:23.146 INFO  1476  --- [restartedMain] f.d.project1.Project1Application : Starting Project1Application using Java 21.0.5 with PID 16740 (C:\Users\mderk\toto\project1\target\classes started by mderk in C:\Users\mderk\toto\project1)
+2025-07-03 11:42:23.153 INFO  1483  --- [restartedMain] f.d.project1.Project1Application : No active profile set, falling back to 1 default profile: "default"
+2025-07-03 11:42:23.259 INFO  1589  --- [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-03 11:42:23.260 INFO  1590  --- [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-03 11:42:24.999 INFO  3329  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-03 11:42:25.152 INFO  3482  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 126 ms. Found 3 JPA repository interfaces.
+2025-07-03 11:42:26.339 INFO  4669  --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port 8086 (http)
+2025-07-03 11:42:26.370 INFO  4700  --- [restartedMain] o.a.catalina.core.StandardService : Starting service [Tomcat]
+2025-07-03 11:42:26.371 INFO  4701  --- [restartedMain] o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-03 11:42:26.485 INFO  4815  --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2025-07-03 11:42:26.486 INFO  4816  --- [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3225 ms
+2025-07-03 11:42:26.805 INFO  5135  --- [restartedMain] o.h.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-03 11:42:26.895 INFO  5225  --- [restartedMain] org.hibernate.Version : HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-07-03 11:42:26.976 INFO  5306  --- [restartedMain] o.h.c.i.RegionFactoryInitiator : HHH000026: Second-level cache disabled
+2025-07-03 11:42:27.592 INFO  5922  --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-03 11:42:27.647 INFO  5977  --- [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2025-07-03 11:42:27.895 INFO  6225  --- [restartedMain] com.zaxxer.hikari.pool.HikariPool : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@53c79486
+2025-07-03 11:42:27.898 INFO  6228  --- [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2025-07-03 11:42:28.005 WARN  6335  --- [restartedMain] org.hibernate.orm.deprecation : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-03 11:42:28.044 INFO  6374  --- [restartedMain] o.hibernate.orm.connections.pooling : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-03 11:42:29.669 INFO  7999  --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-03 11:42:29.744 DEBUG 8074  --- [restartedMain] org.hibernate.SQL : create index idx_catagory_name on category (name)
+2025-07-03 11:42:30.305 INFO  8635  --- [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-03 11:42:31.098 INFO  9428  --- [restartedMain] o.s.d.j.r.q.QueryEnhancerFactory : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-07-03 11:42:32.585 WARN  10915 --- [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-03 11:42:33.357 INFO  11687 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2025-07-03 11:42:33.409 INFO  11739 --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port 8086 (http) with context path '/'
+2025-07-03 11:42:33.430 INFO  11760 --- [restartedMain] f.d.project1.Project1Application : Started Project1Application in 11.012 seconds (process running for 12.055)
+2025-07-03 13:01:45.812 WARN  4764142 --- [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=31m17s18ms461µs600ns).
+2025-07-03 13:33:10.701 WARN  6649031 --- [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=31m35s621ms219µs600ns).
+2025-07-03 14:58:00.498 INFO  11738828 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-03 14:58:00.513 INFO  11738843 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown : Graceful shutdown complete
+2025-07-03 14:58:00.526 INFO  11738856 --- [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-03 14:58:00.536 INFO  11738866 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+2025-07-03 14:58:00.542 INFO  11738872 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
+2025-07-03 16:02:43.039 ERROR 1047  --- [restartedMain] o.s.boot.SpringApplication : Application run failed
+org.yaml.snakeyaml.scanner.ScannerException: while scanning an alias
+ in 'reader', line 69, column 27:
+        web.exposure.include: *
+                              ^
+unexpected character found (13)
+ in 'reader', line 69, column 28:
+        web.exposure.include: *
+                               ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.scanAnchor(ScannerImpl.java:1518)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchAlias(ScannerImpl.java:962)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:412)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:239)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValue.produce(ParserImpl.java:669)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116)
+	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:249)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:214)
+	at org.yaml.snakeyaml.composer.Composer.composeKeyNode(Composer.java:386)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:357)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:329)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:218)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:396)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:361)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:329)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:218)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:396)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:361)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:329)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:218)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:141)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getData(BaseConstructor.java:163)
+	at org.springframework.boot.env.OriginTrackedYamlLoader$OriginTrackingConstructor.getData(OriginTrackedYamlLoader.java:99)
+	at org.yaml.snakeyaml.Yaml$1.next(Yaml.java:530)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:203)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:169)
+	at org.springframework.boot.env.OriginTrackedYamlLoader.load(OriginTrackedYamlLoader.java:84)
+	at org.springframework.boot.env.YamlPropertySourceLoader.load(YamlPropertySourceLoader.java:50)
+	at org.springframework.boot.context.config.StandardConfigDataLoader.load(StandardConfigDataLoader.java:54)
+	at org.springframework.boot.context.config.StandardConfigDataLoader.load(StandardConfigDataLoader.java:36)
+	at org.springframework.boot.context.config.ConfigDataLoaders.load(ConfigDataLoaders.java:96)
+	at org.springframework.boot.context.config.ConfigDataImporter.load(ConfigDataImporter.java:132)
+	at org.springframework.boot.context.config.ConfigDataImporter.resolveAndLoad(ConfigDataImporter.java:87)
+	at org.springframework.boot.context.config.ConfigDataEnvironmentContributors.withProcessedImports(ConfigDataEnvironmentContributors.java:129)
+	at org.springframework.boot.context.config.ConfigDataEnvironment.processInitial(ConfigDataEnvironment.java:245)
+	at org.springframework.boot.context.config.ConfigDataEnvironment.processAndApply(ConfigDataEnvironment.java:232)
+	at org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor.postProcessEnvironment(ConfigDataEnvironmentPostProcessor.java:96)
+	at org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor.postProcessEnvironment(ConfigDataEnvironmentPostProcessor.java:89)
+	at org.springframework.boot.env.EnvironmentPostProcessorApplicationListener.onApplicationEnvironmentPreparedEvent(EnvironmentPostProcessorApplicationListener.java:132)
+	at org.springframework.boot.env.EnvironmentPostProcessorApplicationListener.onApplicationEvent(EnvironmentPostProcessorApplicationListener.java:115)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:185)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:178)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:156)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:138)
+	at org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:136)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:81)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:64)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:63)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:353)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:313)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at fr.dawan.project1.Project1Application.main(Project1Application.java:25)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+2025-07-03 16:03:16.797 ERROR 1153  --- [restartedMain] o.s.boot.SpringApplication : Application run failed
+org.yaml.snakeyaml.scanner.ScannerException: while scanning an alias
+ in 'reader', line 69, column 27:
+        web.exposure.include: *
+                              ^
+unexpected character found (13)
+ in 'reader', line 69, column 28:
+        web.exposure.include: *
+                               ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.scanAnchor(ScannerImpl.java:1518)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchAlias(ScannerImpl.java:962)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:412)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:239)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValue.produce(ParserImpl.java:669)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116)
+	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:249)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:214)
+	at org.yaml.snakeyaml.composer.Composer.composeKeyNode(Composer.java:386)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:357)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:329)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:218)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:396)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:361)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:329)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:218)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:396)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:361)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:329)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:218)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:141)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getData(BaseConstructor.java:163)
+	at org.springframework.boot.env.OriginTrackedYamlLoader$OriginTrackingConstructor.getData(OriginTrackedYamlLoader.java:99)
+	at org.yaml.snakeyaml.Yaml$1.next(Yaml.java:530)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:203)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:169)
+	at org.springframework.boot.env.OriginTrackedYamlLoader.load(OriginTrackedYamlLoader.java:84)
+	at org.springframework.boot.env.YamlPropertySourceLoader.load(YamlPropertySourceLoader.java:50)
+	at org.springframework.boot.context.config.StandardConfigDataLoader.load(StandardConfigDataLoader.java:54)
+	at org.springframework.boot.context.config.StandardConfigDataLoader.load(StandardConfigDataLoader.java:36)
+	at org.springframework.boot.context.config.ConfigDataLoaders.load(ConfigDataLoaders.java:96)
+	at org.springframework.boot.context.config.ConfigDataImporter.load(ConfigDataImporter.java:132)
+	at org.springframework.boot.context.config.ConfigDataImporter.resolveAndLoad(ConfigDataImporter.java:87)
+	at org.springframework.boot.context.config.ConfigDataEnvironmentContributors.withProcessedImports(ConfigDataEnvironmentContributors.java:129)
+	at org.springframework.boot.context.config.ConfigDataEnvironment.processInitial(ConfigDataEnvironment.java:245)
+	at org.springframework.boot.context.config.ConfigDataEnvironment.processAndApply(ConfigDataEnvironment.java:232)
+	at org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor.postProcessEnvironment(ConfigDataEnvironmentPostProcessor.java:96)
+	at org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor.postProcessEnvironment(ConfigDataEnvironmentPostProcessor.java:89)
+	at org.springframework.boot.env.EnvironmentPostProcessorApplicationListener.onApplicationEnvironmentPreparedEvent(EnvironmentPostProcessorApplicationListener.java:132)
+	at org.springframework.boot.env.EnvironmentPostProcessorApplicationListener.onApplicationEvent(EnvironmentPostProcessorApplicationListener.java:115)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:185)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:178)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:156)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:138)
+	at org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:136)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:81)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:64)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:63)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:353)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:313)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at fr.dawan.project1.Project1Application.main(Project1Application.java:25)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+2025-07-03 16:03:23.291 INFO  1408  --- [restartedMain] f.d.project1.Project1Application : Starting Project1Application using Java 21.0.5 with PID 21896 (C:\Users\mderk\toto\project1\target\classes started by mderk in C:\Users\mderk\toto\project1)
+2025-07-03 16:03:23.294 INFO  1411  --- [restartedMain] f.d.project1.Project1Application : No active profile set, falling back to 1 default profile: "default"
+2025-07-03 16:03:23.384 INFO  1501  --- [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-03 16:03:23.384 INFO  1501  --- [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-03 16:03:25.615 INFO  3732  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-03 16:03:25.756 INFO  3873  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 120 ms. Found 3 JPA repository interfaces.
+2025-07-03 16:03:26.939 INFO  5056  --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port 8086 (http)
+2025-07-03 16:03:26.963 INFO  5080  --- [restartedMain] o.a.catalina.core.StandardService : Starting service [Tomcat]
+2025-07-03 16:03:26.963 INFO  5080  --- [restartedMain] o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-03 16:03:27.076 INFO  5193  --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2025-07-03 16:03:27.078 INFO  5195  --- [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3692 ms
+2025-07-03 16:03:27.498 INFO  5615  --- [restartedMain] o.h.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-03 16:03:27.665 INFO  5782  --- [restartedMain] org.hibernate.Version : HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-07-03 16:03:27.744 INFO  5861  --- [restartedMain] o.h.c.i.RegionFactoryInitiator : HHH000026: Second-level cache disabled
+2025-07-03 16:03:28.380 INFO  6497  --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-03 16:03:28.452 INFO  6569  --- [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2025-07-03 16:03:28.762 INFO  6879  --- [restartedMain] com.zaxxer.hikari.pool.HikariPool : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@19da5e6f
+2025-07-03 16:03:28.764 INFO  6881  --- [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2025-07-03 16:03:28.823 WARN  6940  --- [restartedMain] org.hibernate.orm.deprecation : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-03 16:03:28.851 INFO  6968  --- [restartedMain] o.hibernate.orm.connections.pooling : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-03 16:03:30.338 INFO  8455  --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-03 16:03:30.938 INFO  9055  --- [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-03 16:03:31.669 INFO  9786  --- [restartedMain] o.s.d.j.r.q.QueryEnhancerFactory : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-07-03 16:03:33.091 WARN  11208 --- [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-03 16:03:34.228 INFO  12345 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2025-07-03 16:03:34.338 INFO  12455 --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port 8086 (http) with context path '/'
+2025-07-03 16:03:34.487 INFO  12604 --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port 8087 (http)
+2025-07-03 16:03:34.488 INFO  12605 --- [restartedMain] o.a.catalina.core.StandardService : Starting service [Tomcat]
+2025-07-03 16:03:34.489 INFO  12606 --- [restartedMain] o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-03 16:03:34.518 INFO  12635 --- [restartedMain] o.a.c.c.C.[.[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2025-07-03 16:03:34.518 INFO  12635 --- [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 175 ms
+2025-07-03 16:03:34.536 INFO  12653 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver : Exposing 13 endpoints beneath base path '/actuator'
+2025-07-03 16:03:34.598 INFO  12715 --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port 8087 (http) with context path '/'
+2025-07-03 16:03:34.630 INFO  12747 --- [restartedMain] f.d.project1.Project1Application : Started Project1Application in 12.011 seconds (process running for 13.031)
+2025-07-03 16:03:56.428 INFO  34545 --- [http-nio-8087-exec-1] o.a.c.c.C.[.[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServletRegistration'
+2025-07-03 16:03:56.428 INFO  34545 --- [http-nio-8087-exec-1] o.s.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServletRegistration'
+2025-07-03 16:03:56.429 INFO  34546 --- [http-nio-8087-exec-1] o.s.web.servlet.DispatcherServlet : Completed initialization in 1 ms
+2025-07-03 16:08:06.752 INFO  284869 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-03 16:08:06.761 INFO  284878 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown : Graceful shutdown complete
+2025-07-03 16:08:06.762 INFO  284879 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-03 16:08:06.770 INFO  284887 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown : Graceful shutdown complete
+2025-07-03 16:08:06.780 INFO  284897 --- [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-03 16:08:06.785 INFO  284902 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+2025-07-03 16:08:06.791 INFO  284908 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
+2025-07-03 16:08:09.429 INFO  1355  --- [restartedMain] f.d.project1.Project1Application : Starting Project1Application using Java 21.0.5 with PID 31916 (C:\Users\mderk\toto\project1\target\classes started by mderk in C:\Users\mderk\toto\project1)
+2025-07-03 16:08:09.432 INFO  1358  --- [restartedMain] f.d.project1.Project1Application : No active profile set, falling back to 1 default profile: "default"
+2025-07-03 16:08:09.562 INFO  1488  --- [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-03 16:08:09.563 INFO  1489  --- [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-03 16:08:11.686 INFO  3612  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-03 16:08:11.797 INFO  3723  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 85 ms. Found 3 JPA repository interfaces.
+2025-07-03 16:08:13.023 INFO  4949  --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port 8086 (http)
+2025-07-03 16:08:13.051 INFO  4977  --- [restartedMain] o.a.catalina.core.StandardService : Starting service [Tomcat]
+2025-07-03 16:08:13.052 INFO  4978  --- [restartedMain] o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-03 16:08:13.161 INFO  5087  --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2025-07-03 16:08:13.162 INFO  5088  --- [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3598 ms
+2025-07-03 16:08:13.622 INFO  5548  --- [restartedMain] o.h.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-03 16:08:13.736 INFO  5662  --- [restartedMain] org.hibernate.Version : HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-07-03 16:08:13.798 INFO  5724  --- [restartedMain] o.h.c.i.RegionFactoryInitiator : HHH000026: Second-level cache disabled
+2025-07-03 16:08:14.382 INFO  6308  --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-03 16:08:14.470 INFO  6396  --- [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2025-07-03 16:08:14.798 INFO  6724  --- [restartedMain] com.zaxxer.hikari.pool.HikariPool : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2a458ee6
+2025-07-03 16:08:14.800 INFO  6726  --- [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2025-07-03 16:08:14.854 WARN  6780  --- [restartedMain] org.hibernate.orm.deprecation : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-03 16:08:14.888 INFO  6814  --- [restartedMain] o.hibernate.orm.connections.pooling : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-03 16:08:16.618 INFO  8544  --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-03 16:08:17.152 INFO  9078  --- [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-03 16:08:17.995 INFO  9921  --- [restartedMain] o.s.d.j.r.q.QueryEnhancerFactory : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-07-03 16:08:19.727 WARN  11653 --- [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-03 16:08:20.950 INFO  12876 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2025-07-03 16:08:21.097 INFO  13023 --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port 8086 (http) with context path '/'
+2025-07-03 16:08:21.256 INFO  13182 --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port 8087 (http)
+2025-07-03 16:08:21.257 INFO  13183 --- [restartedMain] o.a.catalina.core.StandardService : Starting service [Tomcat]
+2025-07-03 16:08:21.258 INFO  13184 --- [restartedMain] o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-03 16:08:21.291 INFO  13217 --- [restartedMain] o.a.c.c.C.[.[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2025-07-03 16:08:21.291 INFO  13217 --- [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 185 ms
+2025-07-03 16:08:21.314 INFO  13240 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver : Exposing 13 endpoints beneath base path '/actuator'
+2025-07-03 16:08:21.386 INFO  13312 --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port 8087 (http) with context path '/'
+2025-07-03 16:08:21.417 INFO  13343 --- [restartedMain] f.d.project1.Project1Application : Started Project1Application in 12.64 seconds (process running for 13.604)
+2025-07-03 16:08:24.402 INFO  16328 --- [http-nio-8087-exec-1] o.a.c.c.C.[.[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServletRegistration'
+2025-07-03 16:08:24.403 INFO  16329 --- [http-nio-8087-exec-1] o.s.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServletRegistration'
+2025-07-03 16:08:24.403 INFO  16329 --- [http-nio-8087-exec-1] o.s.web.servlet.DispatcherServlet : Completed initialization in 0 ms
+2025-07-03 16:09:13.404 WARN  65330 --- [http-nio-8087-exec-2] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource actuator/prometheus.]
+2025-07-03 16:10:17.762 INFO  129688 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-03 16:10:17.771 INFO  129697 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown : Graceful shutdown complete
+2025-07-03 16:10:17.771 INFO  129697 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-03 16:10:17.778 INFO  129704 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown : Graceful shutdown complete
+2025-07-03 16:10:17.789 INFO  129715 --- [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-03 16:10:17.797 INFO  129723 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+2025-07-03 16:10:17.803 INFO  129729 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
+2025-07-03 16:10:25.463 INFO  1535  --- [restartedMain] f.d.project1.Project1Application : Starting Project1Application using Java 21.0.5 with PID 11472 (C:\Users\mderk\toto\project1\target\classes started by mderk in C:\Users\mderk\toto\project1)
+2025-07-03 16:10:25.467 INFO  1539  --- [restartedMain] f.d.project1.Project1Application : No active profile set, falling back to 1 default profile: "default"
+2025-07-03 16:10:25.544 INFO  1616  --- [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-03 16:10:25.545 INFO  1617  --- [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-03 16:10:27.768 INFO  3840  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-03 16:10:27.893 INFO  3965  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 107 ms. Found 3 JPA repository interfaces.
+2025-07-03 16:10:28.981 INFO  5053  --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port 8086 (http)
+2025-07-03 16:10:29.005 INFO  5077  --- [restartedMain] o.a.catalina.core.StandardService : Starting service [Tomcat]
+2025-07-03 16:10:29.006 INFO  5078  --- [restartedMain] o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-03 16:10:29.085 INFO  5157  --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2025-07-03 16:10:29.086 INFO  5158  --- [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3539 ms
+2025-07-03 16:10:29.622 INFO  5694  --- [restartedMain] o.h.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-03 16:10:29.799 INFO  5871  --- [restartedMain] org.hibernate.Version : HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-07-03 16:10:29.882 INFO  5954  --- [restartedMain] o.h.c.i.RegionFactoryInitiator : HHH000026: Second-level cache disabled
+2025-07-03 16:10:30.458 INFO  6530  --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-03 16:10:30.539 INFO  6611  --- [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2025-07-03 16:10:30.848 INFO  6920  --- [restartedMain] com.zaxxer.hikari.pool.HikariPool : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@56d5f3
+2025-07-03 16:10:30.852 INFO  6924  --- [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2025-07-03 16:10:30.908 WARN  6980  --- [restartedMain] org.hibernate.orm.deprecation : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-03 16:10:30.936 INFO  7008  --- [restartedMain] o.hibernate.orm.connections.pooling : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-03 16:10:32.671 INFO  8743  --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-03 16:10:33.232 INFO  9304  --- [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-03 16:10:34.011 INFO  10083 --- [restartedMain] o.s.d.j.r.q.QueryEnhancerFactory : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-07-03 16:10:35.623 WARN  11695 --- [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-03 16:10:36.910 INFO  12982 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2025-07-03 16:10:37.033 INFO  13105 --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port 8086 (http) with context path '/'
+2025-07-03 16:10:37.225 INFO  13297 --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port 8087 (http)
+2025-07-03 16:10:37.226 INFO  13298 --- [restartedMain] o.a.catalina.core.StandardService : Starting service [Tomcat]
+2025-07-03 16:10:37.227 INFO  13299 --- [restartedMain] o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-03 16:10:37.271 INFO  13343 --- [restartedMain] o.a.c.c.C.[.[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2025-07-03 16:10:37.272 INFO  13344 --- [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 234 ms
+2025-07-03 16:10:37.303 INFO  13375 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver : Exposing 14 endpoints beneath base path '/actuator'
+2025-07-03 16:10:37.385 INFO  13457 --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port 8087 (http) with context path '/'
+2025-07-03 16:10:37.426 INFO  13498 --- [restartedMain] f.d.project1.Project1Application : Started Project1Application in 12.682 seconds (process running for 14.067)
+2025-07-03 16:10:38.148 INFO  14220 --- [http-nio-8087-exec-2] o.a.c.c.C.[.[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServletRegistration'
+2025-07-03 16:10:38.149 INFO  14221 --- [http-nio-8087-exec-2] o.s.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServletRegistration'
+2025-07-03 16:10:38.149 INFO  14221 --- [http-nio-8087-exec-2] o.s.web.servlet.DispatcherServlet : Completed initialization in 0 ms
+2025-07-03 16:11:53.030 INFO  89102 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-03 16:11:53.039 INFO  89111 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown : Graceful shutdown complete
+2025-07-03 16:11:53.040 INFO  89112 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-03 16:11:53.046 INFO  89118 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown : Graceful shutdown complete
+2025-07-03 16:11:53.057 INFO  89129 --- [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-03 16:11:53.063 INFO  89135 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+2025-07-03 16:11:53.068 INFO  89140 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
